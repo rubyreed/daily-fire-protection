@@ -5,22 +5,6 @@
 /* when navbar is collapsed */
 @media only screen and (max-width: 767px) {
   /* in navbar */
-  /* .home {
-    margin-left: 1rem;
-  }
-  .about {
-    margin-left: 3rem;
-  }
-  .services {
-    margin-left: 5rem;
-  }
-  .action {
-    margin-left: 7rem;
-  }
-  .contact {
-    margin-left: 9rem;
-  } */
-
   .navbar-nav .nav-link {
     padding: 1rem !important;
     display: flex;
@@ -56,4 +40,13 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  /* in footer */
+  .footerlink {
+    font-size: 1rem;
+    margin: 0rem;
+    color: white !important;
+  }
+  .footerlink :hover {
+    color: #454545 !important;
+  }
 }

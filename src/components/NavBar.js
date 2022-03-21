@@ -21,7 +21,7 @@ const NavBar = () => {
                     <FireNavLink className="home" eventKey="/">HOME</FireNavLink>
                     <FireNavLink className="about" eventKey="/about">ABOUT</FireNavLink>
                     <FireNavLink className="services" eventKey="/services">SERVICES</FireNavLink>
-                    <FireNavLink className="action" eventKey="/action">ACTION</FireNavLink>
+                    {/* <FireNavLink className="action" eventKey="/action">ACTION</FireNavLink> */}
                     <FireNavLink className="contact" eventKey="/contact">CONTACT</FireNavLink>
                 </Nav>
             </Navbar.Collapse>
