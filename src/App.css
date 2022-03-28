@@ -101,12 +101,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 1.5rem;
     border-radius: 1rem;
     height: 18vw;
     width: 18vw;
-    font-size: 2vw;
+    font-size: 2.3vw;
     font-weight: 800;
   }
   .facts {
@@ -115,7 +115,7 @@
     justify-content: space-evenly;
   }
   .title {
-    font-size: 4vw;
+    font-size: 8vw;
     color: white;
     display: flex;
     justify-content: center;
@@ -139,6 +139,65 @@
   .personimg {
     height: 30vw;
     /* object-fit: cover; */
+  }
+  /* in services */
+  .services {
+    /* display: flex; */
+    background-color: #454545;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+  }
+  .service {
+    /* width: 33.3%; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .serviceicon {
+    height: 18vw;
+    width: 18vw;
+    margin-bottom: 2rem;
+    /* margin-top: 1rem; */
+  }
+  .serviceborder {
+    border-bottom: 3px solid white;
+  }
+  .servicehead {
+    font-size: 5vw;
+  }
+  .servicep {
+    font-size: 3vw;
+  }
+  .servicetitle {
+    font-size: 8vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
+  .protect {
+    background-color: #454545;
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color: white;
+    display: flex;
+  }
+  .protecttext {
+    width: 60%;
+    /* padding-right: 10rem; */
+  }
+  .protectlist {
+    width: 40%;
+    font-size: 3vw;
   }
 }
 
@@ -214,6 +273,16 @@
     color: white;
     margin-bottom: 4rem;
   }
+  .title {
+    font-size: 8vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
   .fact {
     background-color: #424242;
     width: 25%;
@@ -234,16 +303,6 @@
     color: white;
     justify-content: space-evenly;
   }
-  .title {
-    font-size: 4vw;
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin: 2rem;
-    font-weight: 900;
-    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
-      0px -5px 35px rgba(255, 255, 255, 0.3);
-  }
   .aboutsection {
     display: flex;
     height: 20rem;
@@ -258,6 +317,65 @@
   }
   .personimg {
     object-fit: cover;
+  }
+  /* in services */
+  .services {
+    /* display: flex; */
+    background-color: #454545;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+  }
+  .service {
+    /* width: 33.3%; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .serviceicon {
+    height: 18vw;
+    width: 18vw;
+    margin-bottom: 2rem;
+    /* margin-top: 1rem; */
+  }
+  .serviceborder {
+    border-bottom: 3px solid white;
+  }
+  .servicehead {
+    font-size: 5vw;
+  }
+  .servicep {
+    font-size: 3vw;
+  }
+  .servicetitle {
+    font-size: 8vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
+  .protect {
+    background-color: #454545;
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color: white;
+    display: flex;
+  }
+  .protecttext {
+    width: 60%;
+    /* padding-right: 10rem; */
+  }
+  .protectlist {
+    width: 40%;
+    font-size: 3vw;
   }
 }
 
@@ -344,6 +462,16 @@
     color: white;
     margin-bottom: 4rem;
   }
+  .title {
+    font-size: 5vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
   .fact {
     background-color: #424242;
     width: 25%;
@@ -364,7 +492,7 @@
     color: white;
     justify-content: space-evenly;
   }
-  .title {
+  .servicetitle {
     font-size: 4vw;
     color: white;
     display: flex;
@@ -388,6 +516,66 @@
   }
   .personimg {
     object-fit: cover;
+  }
+  /* in services */
+  .services {
+    display: flex;
+    background-color: #454545;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+  }
+  .service {
+    width: 33.3%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .serviceicon {
+    height: 8vw;
+    width: 8vw;
+    margin-bottom: 2rem;
+    /* margin-top: 1rem; */
+  }
+  .servicehead {
+    font-size: 3.2vw;
+  }
+  .servicep {
+    font-size: 2vw;
+  }
+  .servicetitle {
+    font-size: 5vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
+  .protect {
+    background-color: #454545;
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color: white;
+    display: flex;
+  }
+  .protecttext {
+    width: 60%;
+    padding-right: 10rem;
+  }
+  .protectlist {
+    width: 40%;
+    font-size: 2vw;
+  }
+  .serviceborder {
+    border-right: 3px solid white;
+    border-bottom: none;
   }
 }
 
@@ -473,6 +661,16 @@
     color: white;
     margin-bottom: 4rem;
   }
+  .title {
+    font-size: 4vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
   .fact {
     background-color: #424242;
     width: 25%;
@@ -493,7 +691,7 @@
     color: white;
     justify-content: space-evenly;
   }
-  .title {
+  .servicetitle {
     font-size: 4vw;
     color: white;
     display: flex;
@@ -517,6 +715,65 @@
   }
   .personimg {
     object-fit: cover;
+  }
+  /* in services */
+  .services {
+    display: flex;
+    background-color: #454545;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+  }
+  .service {
+    width: 33.3%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .serviceicon {
+    height: 8vw;
+    width: 8vw;
+    margin-bottom: 2rem;
+    /* margin-top: 1rem; */
+  }
+  .servicehead {
+    font-size: 3.2vw;
+  }
+  .servicep {
+    font-size: 2vw;
+  }
+  .servicetitle {
+    font-size: 4vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
+  .protect {
+    background-color: #454545;
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color: white;
+    display: flex;
+  }
+  .protecttext {
+    width: 60%;
+    padding-right: 10rem;
+  }
+  .protectlist {
+    width: 40%;
+    font-size: 2vw;
+  }
+  .serviceborder {
+    border-right: 3px solid white;
   }
 }
 
@@ -646,5 +903,64 @@
   }
   .personimg {
     object-fit: cover;
+  }
+  /* in services */
+  .services {
+    display: flex;
+    background-color: #454545;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+  }
+  .service {
+    width: 33.3%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .serviceicon {
+    height: 8vw;
+    width: 8vw;
+    margin-bottom: 2rem;
+    /* margin-top: 1rem; */
+  }
+  .servicehead {
+    font-size: 2.5vw;
+  }
+  .servicep {
+    font-size: 1.2vw;
+  }
+  .servicetitle {
+    font-size: 4vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
+  .protect {
+    background-color: #454545;
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color: white;
+    display: flex;
+  }
+  .protecttext {
+    width: 60%;
+    padding-right: 10rem;
+  }
+  .protectlist {
+    width: 40%;
+    font-size: 1.2vw;
+  }
+  .serviceborder {
+    border-right: 3px solid white;
   }
 }
