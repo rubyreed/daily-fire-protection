@@ -14,7 +14,7 @@ const NavBar = () => {
     return (
     <>
     <FireNavbar className = "navbar-dark" collapseOnSelect fixed="top" expand="md">
-    <Navbar.Brand><img style={{height:"5rem", marginLeft:"2rem"}} src={logo}/></Navbar.Brand>
+    <Navbar.Brand href="/"><img style={{height:"5rem", marginLeft:"2rem"}} src={logo}/></Navbar.Brand>
             <Navbar.Toggle style={{marginRight:"2rem"}} aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav style={{width:"100%", display:"flex", justifyContent:"space-evenly"}} onSelect={handleSelect}>

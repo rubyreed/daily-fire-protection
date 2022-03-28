@@ -2,12 +2,13 @@ import React from "react";
 import pencil from "../images/pencil.png"
 import toolbox from "../images/toolbox.gif"
 import clipboard from "../images/clipboard.png"
+import person from "../images/person.png"
 
 const Services = () => {
     return (
     <div>
         <h1 className="servicetitle">Services</h1>
-        <div className="services">
+        <div className="servicesdiv">
             <div className="service serviceborder">
                 <img className="serviceicon" src={pencil}/>
                 <h2 className="servicehead">Design</h2>
@@ -49,6 +50,14 @@ const Services = () => {
             </ul>
         </div>
         <h1 className="servicetitle">See Us in Action</h1>
+        <div>
+            <div style={{padding:"2rem",backgroundColor:"#454545", width:"100%", display:"flex", justifyContent:"space-evenly", marginBottom:"2rem"}}>
+            <img src={person}/>
+            <img src={person}/>
+            <img src={person}/>
+            <img src={person}/>
+            </div>
+        </div>
     </div>
     )}
 

@@ -20,7 +20,7 @@ const Contact = () => {
     return (
         <div style={{display:"flex", justifyContent:"center", minWidth:"550px"}}>
         <Container style={{marginBottom:"5rem", margin:"2rem"}} className="contactcontainer">
-            <h1 style={{color:"white", marginBottom:"2rem"}} className="contactheader">
+            <h1 className="servicetitle">
                 Contact Us
             </h1>
             <form
