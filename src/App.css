@@ -201,6 +201,26 @@
     width: 40%;
     font-size: 3vw;
   }
+  /* in home */
+  .homehead {
+    font-size: 4rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
+  .hometitle {
+    font-size: 2rem;
+  }
+  .homeimg {
+    object-fit: cover;
+    width: 100%;
+  }
+  .headerdiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -379,6 +399,26 @@
   .protectlist {
     width: 40%;
     font-size: 3vw;
+  }
+  /* in home */
+  .homehead {
+    font-size: 5rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
+  .hometitle {
+    font-size: 2.5rem;
+  }
+  .homeimg {
+    object-fit: cover;
+    width: 100%;
+  }
+  .headerdiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -582,6 +622,26 @@
     border-right: 3px solid white;
     border-bottom: none;
   }
+  /* in home */
+  .homehead {
+    font-size: 6rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
+  .hometitle {
+    font-size: 3rem;
+  }
+  .homeimg {
+    object-fit: cover;
+    width: 100%;
+  }
+  .headerdiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -780,6 +840,26 @@
   .serviceborder {
     border-right: 3px solid white;
   }
+  /* in home */
+  .homehead {
+    font-size: 8rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
+  .hometitle {
+    font-size: 4rem;
+  }
+  .homeimg {
+    object-fit: cover;
+    width: 100%;
+  }
+  .headerdiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -967,5 +1047,25 @@
   }
   .serviceborder {
     border-right: 3px solid white;
+  }
+  /* in home */
+  .homehead {
+    font-size: 9rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
+  .hometitle {
+    font-size: 6rem;
+  }
+  .homeimg {
+    object-fit: cover;
+    width: 100%;
+  }
+  .headerdiv {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
