@@ -1578,6 +1578,20 @@
     left: 34%;
     transform: translate(-50%, -50%);
   }
+  .homespacer {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .spaceimg {
+    height: 12vw;
+  }
+  .spaceimg:hover {
+    height: 15vw;
+    border: 3px solid white;
+    border-radius: 0.2rem;
+  }
   /* in contact */
   .contactdiv {
     background-color: #424242;
