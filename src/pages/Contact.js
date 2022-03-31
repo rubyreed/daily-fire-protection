@@ -11,7 +11,7 @@ const Contact = () => {
   
     if (submitted) {
       return (
-        <Container style={{ minWidth:"12rem", marginLeft: "15vw", marginRight: "15vw",marginTop: "10vw", borderRadius:".3rem",padding:"4rem",display:"flex",textAlign:"center",flexDirection:"column"}}>
+        <Container style={{ minWidth:"12rem", marginLeft: "15vw", marginRight: "15vw",marginTop: "2rem", borderRadius:".3rem",padding:"4rem",display:"flex",textAlign:"center",flexDirection:"column"}}>
           <h1 style={{color:"white"}}>Thank you!</h1>
           <p style={{color:"white"}}>We'll be in touch soon.</p>
         </Container>
@@ -19,7 +19,7 @@ const Contact = () => {
     }
     return (
         <div style={{display:"flex", justifyContent:"center", minWidth:"550px"}}>
-        <Container style={{marginBottom:"5rem", margin:"2rem"}} className="contactcontainer">
+        <Container style={{marginBottom:"5rem", marginRight:"2rem", marginLeft:"2rem", marginBottom:"2rem"}} className="contactcontainer">
             <h1 className="servicetitle">
                 Contact Us
             </h1>
@@ -74,7 +74,7 @@ const Contact = () => {
           <Form.Group>
             <Button
             type="submit"
-            style={{backgroundColor:"black", border:"none"}}
+            style={{backgroundColor:"black", border:"none", marginBottom:"2rem"}}
             >
               Submit
             </Button>
