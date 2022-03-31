@@ -6,6 +6,7 @@ import email from "../images/email.png"
 import marker from "../images/marker.png"
 import { useNavigate } from "react-router-dom";
 import { Nav } from "react-bootstrap";
+import web from "../images/whiteweb.png"
 
 const Footer = () => {
     const navigate = useNavigate();
@@ -48,12 +49,12 @@ const Footer = () => {
         </div>
         <div style={{display:"flex"}}>
             <img className="footerimg" src={marker}/> &nbsp; &nbsp;
-            <p>Meridian, ID</p>
+            <p>2399 South Orchard St. Suite 104 Boise, ID 83705</p>
         </div>
         </div>
         </div>
         <div className="footercopyright">
-            <p style={{margin:"0rem", padding:".6rem"}}>Ⓒ 2022 by Ruby Reed</p>
+            <p style={{margin:"0rem", padding:".6rem"}}><img style={{height:"1.5rem", paddingRight:".5rem"}} src={web}/>2022 by Ruby Reed</p>
         </div>
     </div>
     )}

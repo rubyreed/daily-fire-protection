@@ -1289,7 +1289,8 @@
     border-bottom: none;
   }
   .connecttext {
-    font-size: 1.6vw;
+    white-space: nowrap;
+    font-size: 1.4vw;
     margin: 0;
     font-weight: 650;
   }
@@ -1602,7 +1603,7 @@
     border-bottom: none;
   }
   .connecttext {
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     margin: 0;
     font-weight: 650;
   }
