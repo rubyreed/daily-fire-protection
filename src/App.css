@@ -292,6 +292,42 @@
     left: 32%;
     transform: translate(-50%, -50%);
   }
+  /* in contact */
+  .contactdiv {
+    background-color: #424242;
+    border-radius: 0.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    /* display: flex; */
+  }
+  .connect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .connectimg {
+    height: 4rem;
+    padding: 1rem;
+  }
+  .connectborder {
+    border-bottom: 3px solid white;
+  }
+  .connecttext {
+    font-size: 3.2vw;
+    margin: 0;
+    font-weight: 650;
+  }
+  .message {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3.3vw;
+    font-weight: 650;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -564,6 +600,42 @@
     top: 50%;
     left: 35%;
     transform: translate(-50%, -50%);
+  }
+  /* in contact */
+  .contactdiv {
+    background-color: #424242;
+    border-radius: 0.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    /* display: flex; */
+  }
+  .connect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .connectimg {
+    height: 4rem;
+    padding: 1rem;
+  }
+  .connectborder {
+    border-bottom: 3px solid white;
+  }
+  .connecttext {
+    font-size: 2.5vw;
+    margin: 0;
+    font-weight: 650;
+  }
+  .message {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3vw;
+    font-weight: 650;
   }
 }
 
@@ -860,14 +932,48 @@
     left: 35%;
     transform: translate(-50%, -50%);
   }
+  /* in contact */
+  .contactdiv {
+    background-color: #424242;
+    border-radius: 0.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    /* display: flex; */
+  }
+  .connect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .connectimg {
+    height: 4rem;
+    padding: 1rem;
+  }
+  .connectborder {
+    border-bottom: 3px solid white;
+  }
+  .connecttext {
+    font-size: 2vw;
+    margin: 0;
+    font-weight: 650;
+  }
+  .message {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.6vw;
+    font-weight: 650;
+  }
 }
+
 @media only screen and (max-width: 991px) {
   .personimg {
     display: none;
   }
-  /* .personimgsmall {
-    display: none;
-  } */
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -1158,6 +1264,42 @@
     left: 32%;
     transform: translate(-50%, -50%);
   }
+  /* in contact */
+  .contactdiv {
+    background-color: #424242;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+  }
+  .connect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .connectimg {
+    height: 4rem;
+    padding: 1rem;
+  }
+  .connectborder {
+    border-right: 3px solid white;
+    border-bottom: none;
+  }
+  .connecttext {
+    font-size: 1.6vw;
+    margin: 0;
+    font-weight: 650;
+  }
+  .message {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.2vw;
+    font-weight: 650;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -1434,5 +1576,41 @@
     top: 50%;
     left: 34%;
     transform: translate(-50%, -50%);
+  }
+  /* in contact */
+  .contactdiv {
+    background-color: #424242;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+  }
+  .connect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .connectimg {
+    height: 4rem;
+    padding: 1rem;
+  }
+  .connectborder {
+    border-right: 3px solid white;
+    border-bottom: none;
+  }
+  .connecttext {
+    font-size: 1.4vw;
+    margin: 0;
+    font-weight: 650;
+  }
+  .message {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2vw;
+    font-weight: 650;
   }
 }
