@@ -96,7 +96,52 @@
     color: white;
     margin-bottom: 4rem;
   }
-  .fact {
+  .fact1 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 18vw;
+    width: 18vw;
+    font-size: 5.7vw;
+    font-weight: 800;
+  }
+  .fact2 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 18vw;
+    width: 18vw;
+    font-size: 2.3vw;
+    font-weight: 800;
+  }
+  .fact3 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 18vw;
+    width: 18vw;
+    font-size: 3.7vw;
+    font-weight: 800;
+  }
+  .fact4 {
     background-color: #424242;
     width: 25%;
     display: flex;
@@ -127,20 +172,26 @@
       0px -5px 35px rgba(255, 255, 255, 0.3);
   }
   .aboutsection {
-    /* display: flex; */
-    height: 20rem;
     margin-top: 3rem;
   }
   .personbiodiv {
     color: white;
     background-color: #424242;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
-    min-width: 30rem;
+    /* min-width: 30rem; */
   }
   .personimg {
     height: 30vw;
-    /* object-fit: cover; */
+    display: none;
+  }
+  .personimgsmall {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .abouttitle {
+    font-weight: 900;
+    margin-bottom: 0.5rem;
   }
   /* in services */
   .servicesdiv {
@@ -307,19 +358,64 @@
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
   }
-  .fact {
+  .fact1 {
     background-color: #424242;
     width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
-    margin: min(2rem);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
     border-radius: 1rem;
     height: 18vw;
     width: 18vw;
-    font-size: 2vw;
+    font-size: 5.7vw;
+    font-weight: 800;
+  }
+  .fact2 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 18vw;
+    width: 18vw;
+    font-size: 2.3vw;
+    font-weight: 800;
+  }
+  .fact3 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 18vw;
+    width: 18vw;
+    font-size: 3.7vw;
+    font-weight: 800;
+  }
+  .fact4 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 18vw;
+    width: 18vw;
+    font-size: 2.3vw;
     font-weight: 800;
   }
   .facts {
@@ -329,18 +425,27 @@
   }
   .aboutsection {
     display: flex;
-    height: 20rem;
+    /* height: 20rem; */
     margin-top: 3rem;
   }
   .personbiodiv {
     color: white;
     background-color: #424242;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     min-width: 36rem;
   }
   .personimg {
     object-fit: cover;
+    /* display: none; */
+  }
+  .personimgsmall {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .abouttitle {
+    font-weight: 900;
+    margin-bottom: 2rem;
   }
   /* in services */
   .servicesdiv {
@@ -519,19 +624,64 @@
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
   }
-  .fact {
+  .fact1 {
     background-color: #424242;
     width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
-    margin: min(2rem);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
     border-radius: 1rem;
     height: 18vw;
     width: 18vw;
-    font-size: 2vw;
+    font-size: 5.7vw;
+    font-weight: 800;
+  }
+  .fact2 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 18vw;
+    width: 18vw;
+    font-size: 2.3vw;
+    font-weight: 800;
+  }
+  .fact3 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 18vw;
+    width: 18vw;
+    font-size: 3.7vw;
+    font-weight: 800;
+  }
+  .fact4 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 18vw;
+    width: 18vw;
+    font-size: 2.3vw;
     font-weight: 800;
   }
   .facts {
@@ -551,18 +701,26 @@
   }
   .aboutsection {
     display: flex;
-    height: 20rem;
+    /* height: 20rem; */
     margin-top: 3rem;
   }
   .personbiodiv {
     color: white;
     background-color: #424242;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     min-width: 36rem;
   }
   .personimg {
     object-fit: cover;
+  }
+  .personimgsmall {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .abouttitle {
+    font-weight: 900;
+    margin-bottom: 2rem;
   }
   /* in services */
   .servicesdiv {
@@ -645,6 +803,14 @@
     left: 35%;
     transform: translate(-50%, -50%);
   }
+}
+@media only screen and (max-width: 991px) {
+  .personimg {
+    display: none;
+  }
+  /* .personimgsmall {
+    display: none;
+  } */
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -739,19 +905,64 @@
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
   }
-  .fact {
+  .fact1 {
     background-color: #424242;
     width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
-    margin: min(2rem);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
     border-radius: 1rem;
     height: 18vw;
     width: 18vw;
-    font-size: 2vw;
+    font-size: 5.7vw;
+    font-weight: 800;
+  }
+  .fact2 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 18vw;
+    width: 18vw;
+    font-size: 2.3vw;
+    font-weight: 800;
+  }
+  .fact3 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 18vw;
+    width: 18vw;
+    font-size: 3.7vw;
+    font-weight: 800;
+  }
+  .fact4 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 18vw;
+    width: 18vw;
+    font-size: 2.3vw;
     font-weight: 800;
   }
   .facts {
@@ -783,6 +994,13 @@
   }
   .personimg {
     object-fit: cover;
+  }
+  .personimgsmall {
+    display: none;
+  }
+  .abouttitle {
+    font-weight: 900;
+    margin-bottom: 2rem;
   }
   /* in services */
   .servicesdiv {
@@ -948,19 +1166,64 @@
     color: white;
     margin-bottom: 4rem;
   }
-  .fact {
+  .fact1 {
     background-color: #424242;
     width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
-    margin: min(2rem);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
     border-radius: 1rem;
-    height: 18vw;
-    width: 18vw;
-    font-size: 2vw;
+    height: 14vw;
+    width: 14vw;
+    font-size: 4vw;
+    font-weight: 800;
+  }
+  .fact2 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 14vw;
+    width: 14vw;
+    font-size: 1.7vw;
+    font-weight: 800;
+  }
+  .fact3 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 14vw;
+    width: 14vw;
+    font-size: 3vw;
+    font-weight: 800;
+  }
+  .fact4 {
+    background-color: #424242;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    height: 14vw;
+    width: 14vw;
+    font-size: 1.8vw;
     font-weight: 800;
   }
   .facts {
@@ -992,6 +1255,10 @@
   }
   .personimg {
     object-fit: cover;
+  }
+  .abouttitle {
+    font-weight: 900;
+    margin-bottom: 2rem;
   }
   /* in services */
   .servicesdiv {
