@@ -12,23 +12,23 @@ const Services = () => {
             <div className="service serviceborder">
                 <img className="serviceicon" src={pencil}/>
                 <h2 className="servicehead">Design</h2>
-                <p className="servicep">We work with engineers following strict standards for fire suppression,
+                {/* <p className="servicep">We work with engineers following strict standards for fire suppression,
                 safety, and damage control in each facility.
-                </p>
+                </p> */}
             </div>
             <div className="service serviceborder">
                 <img className="serviceicon" src={toolbox}/>
                 <h2 className="servicehead">Installation</h2>
-                <p className="servicep">We offer full installation, providing our clients with expert service while 
+                {/* <p className="servicep">We offer full installation, providing our clients with expert service while 
                     meeting specific code requirements.
-                </p>
+                </p> */}
             </div>
             <div className="service">
                 <img className="serviceicon" src={clipboard}/>
                 <h2 className="servicehead">Inspection, Repair & Service</h2>
-                <p className="servicep">In addition to design and installation we provide maintenance, evaluation, routine
+                {/* <p className="servicep">In addition to design and installation we provide maintenance, evaluation, routine
                     inspection, testing, monitoring, repair and replacement.
-                </p>
+                </p> */}
             </div>
         </div>
         <div className="protect">

@@ -266,7 +266,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
   }
   .actionpic {
     padding: 0.5rem;
@@ -539,7 +539,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
   }
   .actionpic {
     padding: 0.5rem;
@@ -830,7 +830,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
   }
   .actionpic {
     padding: 0.5rem;
@@ -1129,7 +1129,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
   }
   .actionpic {
     padding: 0.5rem;
@@ -1406,7 +1406,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
   }
   .actionpic {
     padding: 0.5rem;
