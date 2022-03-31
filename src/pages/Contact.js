@@ -19,7 +19,7 @@ const Contact = () => {
     }
     return (
         <div style={{display:"flex", justifyContent:"center", minWidth:"550px"}}>
-        <Container style={{marginBottom:"5rem", marginRight:"2rem", marginLeft:"2rem", marginBottom:"2rem"}} className="contactcontainer">
+        <Container style={{ marginRight:"2rem", marginLeft:"2rem", marginBottom:"3rem"}} className="contactcontainer">
             <h1 className="servicetitle">
                 Contact Us
             </h1>

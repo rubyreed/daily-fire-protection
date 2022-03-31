@@ -166,7 +166,7 @@
     color: white;
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin-top: 3rem;
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
@@ -197,7 +197,7 @@
   .servicesdiv {
     /* display: flex; */
     background-color: #454545;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 2rem;
   }
@@ -222,6 +222,7 @@
   }
   .servicehead {
     font-size: 5vw;
+    font-weight: 800;
   }
   .servicep {
     font-size: 3vw;
@@ -231,14 +232,17 @@
     color: white;
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin-top: 3rem;
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
   }
   .protect {
-    background-color: #454545;
-    padding: 2rem;
+    background-color: #ff0000;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
     color: white;
@@ -249,8 +253,23 @@
     /* padding-right: 10rem; */
   }
   .protectlist {
+    padding-top: 0.5rem;
     width: 40%;
     font-size: 3vw;
+    font-weight: 650;
+  }
+  .actionpics {
+    padding: 2rem;
+    background-color: #454545;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+  }
+  .actionpic {
+    padding: 0.5rem;
   }
   /* in home */
   .homehead {
@@ -353,7 +372,7 @@
     color: white;
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin-top: 3rem;
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
@@ -451,7 +470,7 @@
   .servicesdiv {
     /* display: flex; */
     background-color: #454545;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 2rem;
   }
@@ -476,6 +495,7 @@
   }
   .servicehead {
     font-size: 5vw;
+    font-weight: 800;
   }
   .servicep {
     font-size: 3vw;
@@ -485,14 +505,17 @@
     color: white;
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin-top: 3rem;
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
   }
   .protect {
-    background-color: #454545;
-    padding: 2rem;
+    background-color: #ff0000;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
     color: white;
@@ -503,8 +526,23 @@
     /* padding-right: 10rem; */
   }
   .protectlist {
+    padding-top: 0.5rem;
     width: 40%;
     font-size: 3vw;
+    font-weight: 650;
+  }
+  .actionpics {
+    padding: 2rem;
+    background-color: #454545;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+  }
+  .actionpic {
+    padding: 0.5rem;
   }
   /* in home */
   .homehead {
@@ -619,7 +657,7 @@
     color: white;
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin-top: 3rem;
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
@@ -726,7 +764,7 @@
   .servicesdiv {
     display: flex;
     background-color: #454545;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 2rem;
   }
@@ -748,6 +786,7 @@
   }
   .servicehead {
     font-size: 3.2vw;
+    font-weight: 800;
   }
   .servicep {
     font-size: 2vw;
@@ -757,14 +796,17 @@
     color: white;
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin-top: 3rem;
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
   }
   .protect {
-    background-color: #454545;
-    padding: 2rem;
+    background-color: #ff0000;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
     color: white;
@@ -775,8 +817,23 @@
     padding-right: 10rem;
   }
   .protectlist {
+    padding-top: 0.5rem;
     width: 40%;
     font-size: 2vw;
+    font-weight: 650;
+  }
+  .actionpics {
+    padding: 2rem;
+    background-color: #454545;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+  }
+  .actionpic {
+    padding: 0.5rem;
   }
   .serviceborder {
     border-right: 3px solid white;
@@ -900,7 +957,7 @@
     color: white;
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin-top: 3rem;
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
@@ -1006,7 +1063,7 @@
   .servicesdiv {
     display: flex;
     background-color: #454545;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 2rem;
   }
@@ -1028,6 +1085,7 @@
   }
   .servicehead {
     font-size: 3.2vw;
+    font-weight: 800;
   }
   .servicep {
     font-size: 2vw;
@@ -1037,14 +1095,17 @@
     color: white;
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin-top: 3rem;
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
   }
   .protect {
-    background-color: #454545;
-    padding: 2rem;
+    background-color: #ff0000;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
     color: white;
@@ -1055,8 +1116,23 @@
     padding-right: 10rem;
   }
   .protectlist {
+    padding-top: 0.5rem;
     width: 40%;
     font-size: 2vw;
+    font-weight: 650;
+  }
+  .actionpics {
+    padding: 2rem;
+    background-color: #454545;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+  }
+  .actionpic {
+    padding: 0.5rem;
   }
   .serviceborder {
     border-right: 3px solid white;
@@ -1236,7 +1312,7 @@
     color: white;
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin-top: 3rem;
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
@@ -1264,7 +1340,7 @@
   .servicesdiv {
     display: flex;
     background-color: #454545;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 2rem;
   }
@@ -1286,6 +1362,7 @@
   }
   .servicehead {
     font-size: 2.5vw;
+    font-weight: 800;
   }
   .servicep {
     font-size: 1.2vw;
@@ -1295,14 +1372,17 @@
     color: white;
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin-top: 3rem;
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
   }
   .protect {
-    background-color: #454545;
-    padding: 2rem;
+    background-color: #ff0000;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
     color: white;
@@ -1313,8 +1393,23 @@
     padding-right: 10rem;
   }
   .protectlist {
+    padding-top: 0.5rem;
     width: 40%;
     font-size: 1.2vw;
+    font-weight: 650;
+  }
+  .actionpics {
+    padding: 2rem;
+    background-color: #454545;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+  }
+  .actionpic {
+    padding: 0.5rem;
   }
   .serviceborder {
     border-right: 3px solid white;

@@ -6,7 +6,7 @@ import person from "../images/person.png"
 
 const Services = () => {
     return (
-    <div>
+    <div style={{minWidth:"550px"}}>
         <h1 className="servicetitle">Services</h1>
         <div className="servicesdiv">
             <div className="service serviceborder">
@@ -51,11 +51,11 @@ const Services = () => {
         </div>
         <h1 className="servicetitle">See Us in Action</h1>
         <div>
-            <div style={{padding:"2rem",backgroundColor:"#454545", width:"100%", display:"flex", justifyContent:"space-evenly", marginBottom:"2rem"}}>
-            <img src={person}/>
-            <img src={person}/>
-            <img src={person}/>
-            <img src={person}/>
+            <div className="actionpics">
+            <img className="actionpic" src={person}/>
+            <img className="actionpic" src={person}/>
+            <img className="actionpic" src={person}/>
+            <img className="actionpic" src={person}/>
             </div>
         </div>
     </div>

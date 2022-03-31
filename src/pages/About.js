@@ -6,7 +6,7 @@ import family from "../images/family.png"
 const About = () => {
     return (
         <div className="about" style={{minWidth:"554px"}}>
-            <h1 style={{marginBottom:"3rem"}} className="title">About Us</h1>
+            <h1 style={{marginBottom:"2rem"}} className="title">About Us</h1>
         <div className="facts">
             <h2 className="fact1">Est. 2019</h2>
             <h2 className="fact2">Ada County, Canyon County & Surrounding Areas</h2>
@@ -24,7 +24,7 @@ const About = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
         </div>
-        <h1 className="title">Meet the Team</h1>
+        <h1 style={{marginBottom:"2rem"}} className="title">Meet the Team</h1>
         <div style={{display:"flex", justifyContent:"center"}}>
         <img style={{height:"35vw", borderRadius:".5rem"}} src={people}/>
         </div>
