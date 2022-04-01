@@ -24,6 +24,11 @@ const Home = () => {
         <img className="spaceimg" src={blueprint}/>
         <img className="spaceimg" src={pipes}/>
     </div> */}
+    <div style={{backgroundColor:"#424242"}}>
+        <p style={{margin:"0", color:"white", padding:"1rem", fontWeight:"650", textAlign:"center", fontSize:"2vw"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua. Risus pretium quam vulputate dignissim 
+        suspendisse in est ante in.</p>
+    </div>
     </>
     )}
 

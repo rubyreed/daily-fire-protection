@@ -18,13 +18,13 @@ const Footer = () => {
     <div className="footer" fixed="bottom" style={{minWidth:"550px"}}>
         <div className="footerbody">
         <div className="footerbio">
-            <h4 style={{marginBottom:"1rem"}}>DAILY FIRE PROTECTION</h4>
+            <h4 style={{marginBottom:"1rem", fontWeight:"650"}}>DAILY FIRE PROTECTION</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis 
                  mattis aliquam faucibus purus in. </p>
         </div>
         <div className="footernavdiv">
-            <h4 className="footernavtitle">NAVIGATE</h4>
+            <h4 className="footernavtitle" style={{fontWeight:"650", marginRight:"0"}}>NAVIGATE</h4>
         <Nav className="footernav" onSelect={handleSelect}>
             <Nav.Link className="footerlink" eventKey="/" >HOME</Nav.Link>
             <Nav.Link className="footerlink" eventKey="/about" >ABOUT</Nav.Link>
@@ -33,7 +33,7 @@ const Footer = () => {
         </Nav>
         </div>
         <div className="footerinfo">
-            <h4 style={{marginBottom:"1.5rem"}}>GET IN TOUCH</h4>
+            <h4 style={{marginBottom:"1.5rem", fontWeight:"650"}}>GET IN TOUCH</h4>
         <div style={{display:"flex"}}>
             <img className="footerimg" src={facebook}/> &nbsp; &nbsp;
             <p>Follow us on Facebook</p>
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         </div>
         <div className="footercopyright">
-            <p style={{margin:"0rem", padding:".6rem"}}><img style={{height:"1.5rem", paddingRight:".5rem"}} src={web}/>2022 by Ruby Reed</p>
+            <p className="ruby" style={{margin:"0rem", padding:".6rem"}}><img style={{height:"1.5rem", paddingRight:".5rem"}} src={web}/>2022 by Ruby Reed</p>
         </div>
     </div>
     )}
