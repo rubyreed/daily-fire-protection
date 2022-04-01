@@ -2,7 +2,11 @@ import React from "react";
 import pencil from "../images/pencil.png"
 import toolbox from "../images/toolbox.gif"
 import clipboard from "../images/clipboard.png"
-import person from "../images/person.png"
+// import person from "../images/person.png"
+import hydrant from "../images/Hydrant.png"
+import pipes from "../images/pipes.png"
+import back from "../images/back.jpg"
+import blueprint from "../images/blueprint.jpg"
 
 const Services = () => {
     return (
@@ -12,30 +16,39 @@ const Services = () => {
             <div className="service serviceborder">
                 <img className="serviceicon" src={pencil}/>
                 <h2 className="servicehead">Design</h2>
-                {/* <p className="servicep">We work with engineers following strict standards for fire suppression,
+                <p className="servicep">We work with engineers following strict standards for fire suppression,
                 safety, and damage control in each facility.
-                </p> */}
+                </p>
             </div>
             <div className="service serviceborder">
                 <img className="serviceicon" src={toolbox}/>
                 <h2 className="servicehead">Installation</h2>
-                {/* <p className="servicep">We offer full installation, providing our clients with expert service while 
+                <p className="servicep">We offer full installation, providing our clients with expert service while 
                     meeting specific code requirements.
-                </p> */}
+                </p>
             </div>
             <div className="service">
                 <img className="serviceicon" src={clipboard}/>
                 <h2 className="servicehead">Inspection, Repair & Service</h2>
-                {/* <p className="servicep">In addition to design and installation we provide maintenance, evaluation, routine
+                <p className="servicep">In addition to design and installation we provide maintenance, evaluation, routine
                     inspection, testing, monitoring, repair and replacement.
-                </p> */}
+                </p>
             </div>
         </div>
-        <div className="protect">
+        <h1 className="servicetitle">See Us in Action</h1>
+        <div>
+            <div className="actionpics" style={{marginBottom:"2rem"}}>
+            <img className="actionpic" src={hydrant}/>
+            <img className="actionpic" src={pipes}/>
+            <img className="actionpic" src={blueprint}/>
+            <img className="actionpic" src={back}/>
+            </div>
+        </div>
+        {/* <div className="protect">
             <div className="protecttext">
             <h2 className="servicehead" style={{paddingBottom:"1.5vw"}}>Let us Protect your Assets!</h2>
             <p className="servicep">Daily Fire Protection-NW is a licensed and insured company available to meet your needs in Fire 
-                Protection, From design to installation, we are here to provide service from start to finish.
+                Protection. From design to installation, we are here to provide service from start to finish.
             </p>
             </div>
             <ul className="protectlist">
@@ -48,16 +61,7 @@ const Services = () => {
                 <li>Service and Repair</li>
                 <li>Corrosion Management</li>
             </ul>
-        </div>
-        <h1 className="servicetitle">See Us in Action</h1>
-        <div>
-            <div className="actionpics">
-            <img className="actionpic" src={person}/>
-            <img className="actionpic" src={person}/>
-            <img className="actionpic" src={person}/>
-            <img className="actionpic" src={person}/>
-            </div>
-        </div>
+        </div> */}
     </div>
     )}
 

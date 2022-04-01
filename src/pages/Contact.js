@@ -92,7 +92,7 @@ const Contact = () => {
           <Form.Group>
             <Button
             type="submit"
-            style={{backgroundColor:"black", border:"none", marginBottom:"2rem"}}
+            style={{backgroundColor:"black", border:"none", marginBottom:"2rem", padding:"1rem"}}
             >
               Submit
             </Button>
