@@ -1,11 +1,15 @@
 * {
   font-family: "Commissioner", sans-serif;
 }
+.ruby {
+  color: #adadad;
+  text-decoration: none !important;
+}
 
 .ruby:hover {
   color: #ff0000;
+  text-decoration: none !important;
 }
-
 /* when navbar is collapsed */
 @media only screen and (max-width: 767px) {
   /* in navbar */

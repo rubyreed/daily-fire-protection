@@ -6,7 +6,7 @@ import email from "../images/email.png"
 import marker from "../images/marker.png"
 import { useNavigate } from "react-router-dom";
 import { Nav } from "react-bootstrap";
-import web from "../images/whiteweb.png"
+import web from "../images/web.png"
 
 const Footer = () => {
     const navigate = useNavigate();
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         </div>
         <div className="footercopyright">
-            <p className="ruby" style={{margin:"0rem", padding:".6rem"}}><img style={{height:"1.5rem", paddingRight:".5rem"}} src={web}/>2022 by Ruby Reed</p>
+            <p style={{margin:"0rem", padding:".5rem"}}><a target="_blank" className="ruby"href="https://ruby-reed-portfolio.netlify.app/"><img style={{height:"1.5rem", paddingRight:".5rem", paddingLeft:"0", paddingTop:"0", paddingBottom:"0"}} src={web}/>2022 by Ruby Reed</a></p>
         </div>
     </div>
     )}
