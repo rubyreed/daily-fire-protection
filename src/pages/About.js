@@ -9,7 +9,7 @@ const About = () => {
             <h1 style={{marginBottom:"2rem"}} className="servicetitle">About Us</h1>
         <div className="facts">
             <h2 className="fact1">Est. 2019</h2>
-            <h2 className="fact2">Ada County, Canyon County, Eastern Oregon & Surrounding Areas</h2>
+            <h2 className="fact2">Ada County, Canyon County, Eastern Oregon & More</h2>
             <h2 className="fact3">24 Hour Service</h2>
             <h2 className="fact4">Family-Oriented, Ethical Business Practices</h2>
         </div>

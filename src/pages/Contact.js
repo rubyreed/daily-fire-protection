@@ -49,7 +49,7 @@ const Contact = () => {
             >
               <h1 className="message">Send us a Message</h1>
             <Form.Group className="mb-3" controlId="formBasicName">
-              <label style={{color:"white"}}>
+              <label className="contactlabel">
                 Name:
               </label>
               <br/>
@@ -62,7 +62,7 @@ const Contact = () => {
             </Form.Group>
     
             <Form.Group className="mb-3" controlId="formBasicEmail">
-                <label style={{color:"white"}}>
+                <label className="contactlabel">
                   Email:
                 </label>
                 <br/>
@@ -73,7 +73,7 @@ const Contact = () => {
           </Form.Group>
     
           <Form.Group className="mb-3" controlId="formBasicSubject">
-                <label style={{color:"white"}}>
+                <label className="contactlabel">
                   Subject:
                 </label>
                 <br/>
@@ -84,7 +84,7 @@ const Contact = () => {
           </Form.Group>
     
           <Form.Group className="mb-3" controlID="formTextArea">
-            <label style={{color:"white"}}>Message:</label>
+            <label className="contactlabel">Message:</label>
             <br/>
             <Form.Control placeholder="Message*" as="textarea" rows={5} required/>
           </Form.Group>
