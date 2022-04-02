@@ -18,10 +18,10 @@ const Footer = () => {
     <div className="footer" fixed="bottom" style={{minWidth:"550px"}}>
         <div className="footerbody">
         <div className="footerbio">
-            <h4 style={{marginBottom:"1rem", fontWeight:"650"}}>DAILY FIRE PROTECTION</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis 
-                 mattis aliquam faucibus purus in. </p>
+            <h4 style={{marginBottom:"1.5rem", fontWeight:"650"}}>DAILY FIRE PROTECTION</h4>
+            <p style={{fontSize:"1.2rem"}}>Daily Fire Protection has been serving the Treasure Valley since 2019; focusing on honesty, integrity, and a better way to get things done.
+                Contact us for your residential and commercial fire protection needs!
+            </p>
         </div>
         <div className="footernavdiv">
             <h4 className="footernavtitle" style={{fontWeight:"650", marginRight:"0"}}>NAVIGATE</h4>
@@ -54,7 +54,11 @@ const Footer = () => {
         </div>
         </div>
         <div className="footercopyright">
-            <p style={{margin:"0rem", padding:".5rem"}}><a target="_blank" className="ruby"href="https://ruby-reed-portfolio.netlify.app/"><img style={{height:"1.5rem", paddingRight:".5rem", paddingLeft:"0", paddingTop:"0", paddingBottom:"0"}} src={web}/>2022 by Ruby Reed</a></p>
+            <p style={{margin:"0rem", padding:".5rem"}}>
+                <a target="_blank" className="ruby"href="https://ruby-reed-portfolio.netlify.app/">
+                <img style={{height:"1.5rem", paddingRight:".5rem", paddingLeft:"0", paddingTop:"0", paddingBottom:"0"}} src={web}/>2022 by Ruby Reed
+                </a>
+            </p>
         </div>
     </div>
     )}

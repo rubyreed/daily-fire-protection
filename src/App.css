@@ -104,6 +104,11 @@
     color: white;
     margin-bottom: 4rem;
   }
+  .biotext {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+  }
   .fact1 {
     background-color: #424242;
     width: 25%;
@@ -220,10 +225,14 @@
     text-align: center;
   }
   .serviceicon {
-    height: 15vw;
-    width: 15vw;
+    width: 40vw;
     margin-bottom: 2rem;
-    /* margin-top: 1rem; */
+    border-radius: 0.2rem;
+  }
+  .serviceicon2 {
+    width: 80vw;
+    margin-bottom: 2rem;
+    border-radius: 0.2rem;
   }
   .serviceborder {
     border-bottom: 3px solid white;
@@ -434,6 +443,11 @@
     color: white;
     margin-bottom: 4rem;
   }
+  .biotext {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+  }
   .title {
     font-size: 8vw;
     color: white;
@@ -552,10 +566,14 @@
     text-align: center;
   }
   .serviceicon {
-    height: 10vw;
-    width: 10vw;
+    width: 40vw;
     margin-bottom: 2rem;
-    /* margin-top: 1rem; */
+    border-radius: 0.2rem;
+  }
+  .serviceicon2 {
+    width: 80vw;
+    margin-bottom: 2rem;
+    border-radius: 0.2rem;
   }
   .serviceborder {
     border-bottom: 3px solid white;
@@ -779,6 +797,11 @@
     color: white;
     margin-bottom: 4rem;
   }
+  .biotext {
+    margin: 0;
+    text-align: center;
+    font-size: 1.1rem;
+  }
   .title {
     font-size: 5vw;
     color: white;
@@ -906,10 +929,14 @@
     text-align: center;
   }
   .serviceicon {
-    height: 8vw;
-    width: 8vw;
+    width: 20vw;
     margin-bottom: 2rem;
-    /* margin-top: 1rem; */
+    border-radius: 0.2rem;
+  }
+  .serviceicon2 {
+    width: 25vw;
+    margin-bottom: 2rem;
+    border-radius: 0.2rem;
   }
   .servicehead {
     font-size: 3.2vw;
@@ -1136,6 +1163,11 @@
     color: white;
     margin-bottom: 4rem;
   }
+  .biotext {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+  }
   .title {
     font-size: 4vw;
     color: white;
@@ -1262,10 +1294,14 @@
     text-align: center;
   }
   .serviceicon {
-    height: 8vw;
-    width: 8vw;
+    width: 20vw;
     margin-bottom: 2rem;
-    /* margin-top: 1rem; */
+    border-radius: 0.2rem;
+  }
+  .serviceicon2 {
+    width: 25vw;
+    margin-bottom: 2rem;
+    border-radius: 0.2rem;
   }
   .servicehead {
     font-size: 3.2vw;
@@ -1511,10 +1547,19 @@
   }
   /* in about */
   .bio {
+    margin: auto;
+    border-radius: 0.2rem;
     background-color: #ff0000;
     padding: 2rem;
     color: white;
     margin-bottom: 4rem;
+    width: 70%;
+    margin-top: 2rem;
+  }
+  .biotext {
+    margin: 0;
+    text-align: center;
+    font-size: 1.3rem;
   }
   .fact1 {
     background-color: #424242;
@@ -1629,10 +1674,14 @@
     text-align: center;
   }
   .serviceicon {
-    height: 6vw;
-    width: 6vw;
+    width: 20vw;
     margin-bottom: 2rem;
-    /* margin-top: 1rem; */
+    border-radius: 0.2rem;
+  }
+  .serviceicon2 {
+    width: 25vw;
+    margin-bottom: 2rem;
+    border-radius: 0.2rem;
   }
   .servicehead {
     font-size: 2vw;
