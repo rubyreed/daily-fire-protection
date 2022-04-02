@@ -2,7 +2,6 @@ import React from "react";
 import pencil from "../images/pencil.png"
 import toolbox from "../images/toolbox.gif"
 import clipboard from "../images/clipboard.png"
-// import person from "../images/person.png"
 import hydrant from "../images/Hydrant.png"
 import pipes from "../images/pipes.png"
 import back from "../images/back.jpg"
@@ -35,6 +34,9 @@ const Services = () => {
                 </p>
             </div>
         </div>
+        <div className="infodiv">
+            <h4 className="moreinfo">For more information on the services we offer, give us a call at (208) 899-9837 or (208) 339-0124</h4>
+        </div>
         <h1 className="servicetitle">See Us in Action</h1>
         <div>
             <div className="actionpics" style={{marginBottom:"2rem"}}>
@@ -44,24 +46,6 @@ const Services = () => {
             <img className="actionpic" src={back}/>
             </div>
         </div>
-        {/* <div className="protect">
-            <div className="protecttext">
-            <h2 className="servicehead" style={{paddingBottom:"1.5vw"}}>Let us Protect your Assets!</h2>
-            <p className="servicep">Daily Fire Protection-NW is a licensed and insured company available to meet your needs in Fire 
-                Protection. From design to installation, we are here to provide service from start to finish.
-            </p>
-            </div>
-            <ul className="protectlist">
-                <li>Installation</li>
-                <li>Fire Suppression</li>
-                <li>Sprinklers</li>
-                <li>Inspections</li>
-                <li>Fire Alarm Systems</li>
-                <li>Alarm Monitoring</li>
-                <li>Service and Repair</li>
-                <li>Corrosion Management</li>
-            </ul>
-        </div> */}
     </div>
     )}
 

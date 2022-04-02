@@ -127,7 +127,7 @@
     border-radius: 1rem;
     height: 18vw;
     width: 18vw;
-    font-size: 2.3vw;
+    font-size: 1.8vw;
     font-weight: 800;
   }
   .fact3 {
@@ -272,6 +272,23 @@
   .actionpic {
     height: 10rem;
   }
+  .infodiv {
+    background-color: #ff0000;
+    color: white;
+    padding: 1rem;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 0.3rem;
+    margin-bottom: 2rem;
+  }
+  .moreinfo {
+    margin: 0;
+    font-weight: 650;
+    font-size: 3vw;
+    text-align: center;
+  }
   /* in home */
   .homehead {
     font-size: 3rem;
@@ -289,9 +306,18 @@
   }
   .headerdiv {
     position: absolute;
-    top: 50%;
+    top: 54%;
     left: 32%;
     transform: translate(-50%, -50%);
+  }
+  .homephone {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #000000;
+  }
+  .homeicon {
+    height: 1rem;
   }
   /* in contact */
   .contactdiv {
@@ -441,7 +467,7 @@
     border-radius: 1rem;
     height: 18vw;
     width: 18vw;
-    font-size: 2.3vw;
+    font-size: 1.8vw;
     font-weight: 800;
   }
   .fact3 {
@@ -578,14 +604,31 @@
   .actionpic {
     height: 10rem;
   }
+  .infodiv {
+    background-color: #ff0000;
+    color: white;
+    padding: 1rem;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 0.3rem;
+    margin-bottom: 2rem;
+  }
+  .moreinfo {
+    margin: 0;
+    font-weight: 650;
+    font-size: 2.4vw;
+    text-align: center;
+  }
   /* in home */
   .homehead {
-    font-size: 4rem;
+    font-size: 3.2rem;
     font-weight: 900;
     text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2);
   }
   .hometitle {
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 800;
     text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2);
   }
@@ -595,9 +638,18 @@
   }
   .headerdiv {
     position: absolute;
-    top: 50%;
+    top: 53%;
     left: 35%;
     transform: translate(-50%, -50%);
+  }
+  .homephone {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #000000;
+  }
+  .homeicon {
+    height: 1.2rem;
   }
   /* in contact */
   .contactdiv {
@@ -760,7 +812,7 @@
     border-radius: 1rem;
     height: 18vw;
     width: 18vw;
-    font-size: 2.3vw;
+    font-size: 1.8vw;
     font-weight: 800;
   }
   .fact3 {
@@ -907,14 +959,31 @@
     border-right: 3px solid white;
     border-bottom: none;
   }
+  .infodiv {
+    background-color: #ff0000;
+    color: white;
+    padding: 1rem;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 0.3rem;
+    margin-bottom: 2rem;
+  }
+  .moreinfo {
+    margin: 0;
+    font-weight: 650;
+    font-size: 2.2vw;
+    text-align: center;
+  }
   /* in home */
   .homehead {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 900;
     text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2);
   }
   .hometitle {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
     text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2);
   }
@@ -927,6 +996,15 @@
     top: 50%;
     left: 35%;
     transform: translate(-50%, -50%);
+  }
+  .homephone {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #000000;
+  }
+  .homeicon {
+    height: 1.2rem;
   }
   /* in contact */
   .contactdiv {
@@ -1091,7 +1169,7 @@
     border-radius: 1rem;
     height: 18vw;
     width: 18vw;
-    font-size: 2.3vw;
+    font-size: 1.9vw;
     font-weight: 800;
   }
   .fact3 {
@@ -1236,6 +1314,23 @@
   .serviceborder {
     border-right: 3px solid white;
   }
+  .infodiv {
+    background-color: #ff0000;
+    color: white;
+    padding: 1rem;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 0.3rem;
+    margin-bottom: 2rem;
+  }
+  .moreinfo {
+    margin: 0;
+    font-weight: 650;
+    font-size: 1.6vw;
+    text-align: center;
+  }
   /* in home */
   .homehead {
     font-size: 5rem;
@@ -1254,8 +1349,17 @@
   .headerdiv {
     position: absolute;
     top: 50%;
-    left: 32%;
+    left: 34%;
     transform: translate(-50%, -50%);
+  }
+  .homephone {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #000000;
+  }
+  .homeicon {
+    height: 1.2rem;
   }
   /* in contact */
   .contactdiv {
@@ -1283,7 +1387,7 @@
   }
   .connecttext {
     white-space: nowrap;
-    font-size: 1.4vw;
+    font-size: 0.83rem;
     margin: 0;
     font-weight: 650;
   }
@@ -1292,6 +1396,36 @@
     justify-content: center;
     color: white;
     font-size: 2.2vw;
+    font-weight: 650;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .contactdiv {
+    background-color: #424242;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+  }
+  .connect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .connectimg {
+    height: 4rem;
+    padding: 1rem;
+  }
+  .connectborder {
+    border-right: 3px solid white;
+    border-bottom: none;
+  }
+  .connecttext {
+    font-size: 1.05rem !important;
+    margin: 0;
     font-weight: 650;
   }
 }
@@ -1405,7 +1539,7 @@
     border-radius: 1rem;
     height: 14vw;
     width: 14vw;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     font-weight: 800;
   }
   .fact3 {
@@ -1547,14 +1681,30 @@
   .serviceborder {
     border-right: 3px solid white;
   }
+  .infodiv {
+    background-color: #ff0000;
+    color: white;
+    padding: 1rem;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 0.3rem;
+    margin-bottom: 2rem;
+  }
+  .moreinfo {
+    margin: 0;
+    font-weight: 650;
+    font-size: 1.1vw;
+  }
   /* in home */
   .homehead {
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 900;
     text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2);
   }
   .hometitle {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 800;
     text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2);
   }
@@ -1563,6 +1713,7 @@
     width: 100%;
   }
   .headerdiv {
+    /* width: 100%; */
     position: absolute;
     top: 50%;
     left: 34%;
@@ -1581,6 +1732,15 @@
     height: 15vw;
     border: 3px solid white;
     border-radius: 0.2rem;
+  }
+  .homephone {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #000000;
+  }
+  .homeicon {
+    height: 1.2rem;
   }
   /* in contact */
   .contactdiv {
@@ -1607,7 +1767,7 @@
     border-bottom: none;
   }
   .connecttext {
-    font-size: 1.3vw;
+    font-size: 1.315rem;
     margin: 0;
     font-weight: 650;
   }

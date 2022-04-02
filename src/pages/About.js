@@ -6,10 +6,10 @@ import family from "../images/family.png"
 const About = () => {
     return (
         <div className="about" style={{minWidth:"554px"}}>
-            <h1 style={{marginBottom:"3rem"}} className="servicetitle">About Us</h1>
+            <h1 style={{marginBottom:"ß3rem"}} className="servicetitle">About Us</h1>
         <div className="facts">
             <h2 className="fact1">Est. 2019</h2>
-            <h2 className="fact2">Ada County, Canyon County & Surrounding Areas</h2>
+            <h2 className="fact2">Ada County, Canyon County, Eastern Oregon & Surrounding Areas</h2>
             <h2 className="fact3">24 Hour Service</h2>
             <h2 className="fact4">Family-Oriented, Ethical Business Practices</h2>
         </div>

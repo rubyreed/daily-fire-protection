@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         <div style={{display:"flex"}}>
             <img className="footerimg" src={phone}/> &nbsp; &nbsp;
-            <p>(208) 899-9837</p>
+            <p>(208) 899-9837&nbsp; / &nbsp;(208) 339-0124</p>
         </div>
         <div style={{display:"flex"}}>
             <img className="footerimg" src={email}/> &nbsp; &nbsp;
