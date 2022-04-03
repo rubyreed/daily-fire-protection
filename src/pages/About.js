@@ -1,5 +1,4 @@
 import React from "react";
-import person from "../images/person.png"
 import people from "../images/people.jpg"
 import family from "../images/family.png"
 
