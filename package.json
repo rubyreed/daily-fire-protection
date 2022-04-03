@@ -1,5 +1,6 @@
 {
   "name": "daily-fire-protection",
+  "homepage": "https://www.dailyfireprotection-nw.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
