@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import pencil from "../images/pencil.png"
 import toolbox from "../images/toolbox.gif"
 import clipboard from "../images/clipboard.png"
@@ -11,8 +11,22 @@ import dusty from "../images/Dusty.jpg"
 import tubing from "../images/tubing.jpg"
 import bigred from "../images/bigred.jpg"
 import amazon from "../images/amazon.jpg"
+import ImageModal1 from "../components/ImageModal1";
+import ImageModal2 from "../components/ImageModal2";
+import ImageModal3 from "../components/ImageModal3";
+import ImageModal4 from "../components/ImageModal4";
+import ImageModal5 from "../components/ImageModal5";
+import ImageModal6 from "../components/ImageModal6";
 
 const Services = () => {
+
+    const [modalShow, setModalShow] = React.useState(false);
+    const [modalShowTwo, setModalShowTwo] = React.useState(false);
+    const [modalShowThree, setModalShowThree] = React.useState(false);
+    const [modalShowFour, setModalShowFour] = React.useState(false);
+    const [modalShowFive, setModalShowFive] = React.useState(false);
+    const [modalShowSix, setModalShowSix] = React.useState(false);
+
     return (
     <div style={{minWidth:"550px"}}>
         <h1 className="servicetitle">Services</h1>
@@ -44,9 +58,16 @@ const Services = () => {
         </div>
         <h1 className="servicetitle">See Us in Action</h1>
         <div>
+            {/* <div className="actionpics" style={{marginBottom:"2rem"}}>
+            <img onClick={() => setModalShow(true)} className="actionpic2" src={pipes}/>
+            <img onClick={() => setModalShowTwo(true)} className="actionpic" src={tubing}/>
+            <img onClick={() => setModalShowThree(true)} className="actionpic" src={amazon}/>
+            <img onClick={() => setModalShowFour(true)} className="actionpic1" src={back}/>
+            <img onClick={() => setModalShowFive(true)} className="actionpic" src={dusty}/>
+            <img onClick={() => setModalShowSix(true)} className="actionpic" src={bigred}/>
+            </div> */}
             <div className="actionpics" style={{marginBottom:"2rem"}}>
             <img className="actionpic2" src={pipes}/>
-            {/* <img className="actionpic" src={blueprint}/> */}
             <img className="actionpic" src={tubing}/>
             <img className="actionpic" src={amazon}/>
             <img className="actionpic1" src={back}/>
@@ -54,6 +75,30 @@ const Services = () => {
             <img className="actionpic" src={bigred}/>
             </div>
         </div>
+        <ImageModal1
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+        />
+        <ImageModal2
+        show={modalShowTwo}
+        onHide={() => setModalShowTwo(false)}
+        />
+        <ImageModal3
+        show={modalShowThree}
+        onHide={() => setModalShowThree(false)}
+        />
+        <ImageModal4
+        show={modalShowFour}
+        onHide={() => setModalShowFour(false)}
+        />
+        <ImageModal5
+        show={modalShowFive}
+        onHide={() => setModalShowFive(false)}
+        />
+        <ImageModal6
+        show={modalShowSix}
+        onHide={() => setModalShowSix(false)}
+        />
     </div>
     )}
 
