@@ -16,7 +16,17 @@
   padding: 0.2rem;
   font-weight: 550;
 }
-
+.facebooklink {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+.facebooklink:hover {
+  color: #adadad;
+}
+.fbhover:hover {
+  color: #adadad !important;
+}
 /* when navbar is collapsed */
 @media only screen and (max-width: 767px) {
   /* in navbar */
@@ -371,7 +381,7 @@
     /* display: flex; */
   }
   .connect {
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
     padding: 1rem;

@@ -8,9 +8,13 @@ import { useNavigate } from "react-router-dom";
 import { Nav } from "react-bootstrap";
 import web from "../images/web.png"
 import redweb from "../images/redweb.png"
+import grayfacebook from "../images/grayfacebook.png"
+import graymarker from "../images/graymarker.png"
 
 const Footer = () => {
     const [over, setOver] = useState(false);
+    const [overTwo, setOverTwo] = useState(false);
+    const [overThree, setOverThree] = useState(false);
 
     const navigate = useNavigate();
 
@@ -38,9 +42,8 @@ const Footer = () => {
         <div className="footerinfo">
             <h4 style={{marginBottom:"1.5rem", fontWeight:"650"}}>GET IN TOUCH</h4>
         <div style={{display:"flex"}}>
-            <img className="footerimg" src={facebook}/> &nbsp; &nbsp;
-            <p>Follow us on Facebook</p>
-            {/* add in link to facebook */}
+            <a onMouseOver={() => setOverTwo(true)} onMouseOut={() => setOverTwo(false)} className="facebooklink" href="https://www.facebook.com/Daily-Fire-Protection-NW-101597795858201/" target="_blank">
+            <img className="footerimg" src={overTwo ? grayfacebook : facebook}/> &nbsp; &nbsp;Follow us on Facebook</a>
         </div>
         <div style={{display:"flex"}}>
             <img className="footerimg" src={phone}/> &nbsp; &nbsp;
@@ -51,8 +54,8 @@ const Footer = () => {
             <p>admin@dailyfireprotection-nw.com</p>
         </div>
         <div style={{display:"flex"}}>
-            <img className="footerimg" src={marker}/> &nbsp; &nbsp;
-            <p>2399 South Orchard St. Suite 104 Boise, ID 83705</p>
+        <a onMouseOver={() => setOverThree(true)} onMouseOut={() => setOverThree(false)} className="facebooklink" href="https://www.google.com/maps/place/2399+S+Orchard+St+%23104,+Boise,+ID+83705/@43.5809607,-116.2462992,17z/data=!3m1!4b1!4m5!3m4!1s0x54ae57c6992909a7:0x773ca6f139585f86!8m2!3d43.5809607!4d-116.2441105" target="_blank">
+            <img style={{marginBottom:".5rem"}} className="footerimg" src={overThree ? graymarker : marker}/> &nbsp; &nbsp;2399 South Orchard St. Suite 104 Boise, ID 83705</a>
         </div>
         </div>
         </div>

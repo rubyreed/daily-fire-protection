@@ -3,8 +3,10 @@ import { Button, Container, Form } from "react-bootstrap";
 import phone from "../images/phone.png"
 import email from "../images/email.png"
 import facebook from "../images/facebook.png"
+import grayfacebook from "../images/grayfacebook.png"
 
 const Contact = () => {
+  const [over, setOver] = useState(false);
     const [submitted, setSubmitted] = useState(false);
     const handleSubmit = () => {
       setTimeout(() => {
@@ -36,8 +38,8 @@ const Contact = () => {
                 <h4 className="connecttext">admin@dailyfireprotection-nw.com</h4>
                 </div>
               <div className="connect">
-                <img className="connectimg" src={facebook}/>
-                <h4 className="connecttext">Connect with us on Facebook</h4>
+              <a onMouseOver={() => setOver(true)} className="connecttext fbhover" style={{color:"white", textDecoration:"none"}} onMouseOut={() => setOver(false)} href="https://www.facebook.com/Daily-Fire-Protection-NW-101597795858201/" target="_blank">
+                <img className="connectimg" src={over ? grayfacebook : facebook}/>Connect with us on Facebook</a>
                 </div>
             </div>
             <form
