@@ -5,10 +5,12 @@ import clipboard from "../images/clipboard.png"
 import hydrant from "../images/Hydrant.png"
 import pipes from "../images/pipes.png"
 import back from "../images/back.jpg"
-import blueprint from "../images/blueprint.jpg"
 import design from "../images/designblueprint.png"
 import paul2 from "../images/paul2.png"
-import trucks from "../images/Trucks.jpg"
+import dusty from "../images/Dusty.jpg"
+import tubing from "../images/tubing.jpg"
+import bigred from "../images/bigred.jpg"
+import amazon from "../images/amazon.jpg"
 
 const Services = () => {
     return (
@@ -43,10 +45,13 @@ const Services = () => {
         <h1 className="servicetitle">See Us in Action</h1>
         <div>
             <div className="actionpics" style={{marginBottom:"2rem"}}>
-            <img className="actionpic" src={hydrant}/>
-            <img className="actionpic" src={pipes}/>
-            <img className="actionpic" src={blueprint}/>
-            <img className="actionpic" src={back}/>
+            <img className="actionpic2" src={pipes}/>
+            {/* <img className="actionpic" src={blueprint}/> */}
+            <img className="actionpic" src={tubing}/>
+            <img className="actionpic" src={amazon}/>
+            <img className="actionpic1" src={back}/>
+            <img className="actionpic" src={dusty}/>
+            <img className="actionpic" src={bigred}/>
             </div>
         </div>
     </div>

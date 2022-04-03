@@ -16,6 +16,7 @@
   padding: 0.2rem;
   font-weight: 550;
 }
+
 /* when navbar is collapsed */
 @media only screen and (max-width: 767px) {
   /* in navbar */
@@ -282,14 +283,34 @@
     font-weight: 650;
   }
   .actionpics {
-    /* background-color: #454545; */
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
   }
   .actionpic {
-    height: 10rem;
+    height: 15rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic:hover {
+    height: 16rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic2 {
+    height: 12.5rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic2:hover {
+    height: 13.5rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
   }
   .infodiv {
     background-color: #ff0000;
@@ -623,14 +644,34 @@
     font-weight: 650;
   }
   .actionpics {
-    /* background-color: #454545; */
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
   }
   .actionpic {
-    height: 10rem;
+    height: 15rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic:hover {
+    height: 16rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic2 {
+    height: 12.5rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic2:hover {
+    height: 13.5rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
   }
   .infodiv {
     background-color: #ff0000;
@@ -983,14 +1024,34 @@
     font-weight: 650;
   }
   .actionpics {
-    /* background-color: #454545; */
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
   }
   .actionpic {
-    height: 10rem;
+    height: 15rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic:hover {
+    height: 16rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic2 {
+    height: 15rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic2:hover {
+    height: 16rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
   }
   .serviceborder {
     border-right: 3px solid white;
@@ -1084,6 +1145,23 @@
 @media only screen and (max-width: 991px) {
   .personimg {
     display: none;
+  }
+}
+@media only screen and (max-width: 834px) {
+  .actionpic1 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 835px) {
+  .actionpic1 {
+    height: 15rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic1:hover {
+    height: 16rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
   }
 }
 
@@ -1348,14 +1426,34 @@
     font-weight: 650;
   }
   .actionpics {
-    /* background-color: #454545; */
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
   }
   .actionpic {
-    height: 10rem;
+    height: 15rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic:hover {
+    height: 16rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic2 {
+    height: 15rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic2 {
+    height: 16rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
   }
   .serviceborder {
     border-right: 3px solid white;
@@ -1696,7 +1794,7 @@
     font-weight: 800;
   }
   .servicep {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
   }
   .servicetitle {
     font-size: 3.5vw;
@@ -1726,18 +1824,38 @@
   .protectlist {
     padding-top: 0.5rem;
     width: 40%;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     font-weight: 650;
   }
   .actionpics {
-    /* background-color: #454545; */
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
   }
   .actionpic {
-    height: 10rem;
+    height: 15rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic:hover {
+    height: 16rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic2 {
+    height: 15rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+  }
+  .actionpic2:hover {
+    height: 16rem;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
   }
   .serviceborder {
     border-right: 3px solid white;
