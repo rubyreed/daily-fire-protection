@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="footerbody">
         <div className="footerbio">
             <h4 style={{marginBottom:"1.5rem", fontWeight:"650"}}>DAILY FIRE PROTECTION</h4>
-            <p style={{fontSize:"1.2rem"}}>Daily Fire Protection has been serving the Treasure Valley since 2019; focusing on honesty, integrity, and a better way to get things done.
+            <p style={{fontSize:"1rem"}}>Daily Fire Protection has been serving the Treasure Valley since 2019; focusing on honesty, integrity, and a better way to get things done.
                 Contact us for your residential and commercial fire protection needs!
             </p>
         </div>
