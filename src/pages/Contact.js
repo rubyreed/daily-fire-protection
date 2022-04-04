@@ -23,7 +23,7 @@ const Contact = () => {
       );
     }
     return (
-        <div style={{display:"flex", justifyContent:"center", minWidth:"550px"}}>
+        <div style={{display:"flex", justifyContent:"center"}}>
         <Container style={{ marginRight:"2rem", marginLeft:"2rem", marginBottom:"3rem"}}>
             <h1 className="servicetitle">
                 Get in Touch

@@ -4,7 +4,7 @@ import family from "../images/family.png"
 
 const About = () => {
     return (
-        <div className="about" style={{minWidth:"554px"}}>
+        <div className="about">
             <h1 style={{marginBottom:"2rem"}} className="servicetitle">About Us</h1>
         <div className="facts">
             <h2 className="fact1">Est. 2019</h2>

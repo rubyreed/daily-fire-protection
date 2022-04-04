@@ -28,7 +28,7 @@ const Services = () => {
     const [modalShowSix, setModalShowSix] = React.useState(false);
 
     return (
-    <div style={{minWidth:"550px"}}>
+    <div>
         <h1 className="servicetitle">Services</h1>
         <div className="servicesdiv">
             <div className="service serviceborder">

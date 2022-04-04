@@ -78,9 +78,6 @@
     border-bottom: 3px solid white;
   }
   .footernavdiv {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-bottom: 3px solid white;
@@ -104,8 +101,6 @@
     align-content: center;
   }
   .footernavtitle {
-    /* display: flex;
-    justify-content: center; */
     color: white;
     margin: 0;
     margin-right: 0.9rem;
@@ -303,11 +298,11 @@
   .actionpics {
     display: table;
     table-layout: fixed;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
   }
   .actionpic {
-    height: 15rem;
+    height: 11.1rem;
     border-radius: 0.6rem;
     padding: 0.8rem;
   }
@@ -317,7 +312,7 @@
     padding: 0.8rem;
   } */
   .actionpic2 {
-    height: 12.5rem;
+    height: 9.5rem;
     border-radius: 0.6rem;
     padding: 0.8rem;
   }
@@ -379,8 +374,8 @@
   .contactdiv {
     background-color: #424242;
     border-radius: 0.5rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     color: white;
     width: fit-content;
     margin: auto;
@@ -389,11 +384,14 @@
     display: flex !important;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
   }
   .connectimg {
-    height: 4rem;
-    padding: 1rem;
+    height: 2rem;
+    padding: .3rem;
   }
   .connectborder {
     border-bottom: 3px solid white;
