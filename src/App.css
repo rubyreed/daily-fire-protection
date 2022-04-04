@@ -78,9 +78,9 @@
     border-bottom: 3px solid white;
   }
   .footernavdiv {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-bottom: 3px solid white;
@@ -104,9 +104,17 @@
     align-content: center;
   }
   .footernavtitle {
+    /* display: flex;
+    justify-content: center; */
     color: white;
     margin: 0;
     margin-right: 0.9rem;
+    margin-left: 1rem;
+  }
+  .footernav {
+    display: table;
+    table-layout: fixed;
+    margin-top: 0.5rem;
   }
   .footerlink {
     font-size: 1rem;
@@ -338,12 +346,12 @@
 
   /* in home */
   .homehead {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
     text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2);
   }
   .hometitle {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 800;
     text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2);
   }
@@ -353,7 +361,7 @@
   }
   .headerdiv {
     position: absolute;
-    top: 54%;
+    top: 55%;
     left: 32%;
     transform: translate(-50%, -50%);
   }

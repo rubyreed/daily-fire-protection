@@ -22,7 +22,7 @@ const Footer = () => {
         navigate(eventKey);
     };
     return (
-    <div className="footer" fixed="bottom" style={{minWidth:"550px"}}>
+    <div className="footer" fixed="bottom">
         <div className="footerbody">
         <div className="footerbio">
             <h4 style={{marginBottom:"1.5rem", fontWeight:"650"}}>DAILY FIRE PROTECTION</h4>

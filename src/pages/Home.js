@@ -6,7 +6,7 @@ import phone from "../images/phone.png"
 const Home = () => {
     return (
         <>
-    <div style={{position:"relative", textAlign:"center", color:"white"}}>
+    <div style={{position:"relative",textAlign:"center", color:"white"}}>
         <h2 className="homephone">(208) 899-9827 &nbsp; <img className="homeicon" src={phone}/> &nbsp;(208) 339-0124</h2>
         <img className="homeimg" src={shaded}/>
         <div className="headerdiv">
