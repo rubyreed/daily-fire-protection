@@ -25,8 +25,8 @@ const Footer = () => {
     <div className="footer" fixed="bottom">
         <div className="footerbody">
         <div className="footerbio">
-            <h4 style={{marginBottom:"1.5rem", fontWeight:"650"}}>DAILY FIRE PROTECTION</h4>
-            <p style={{fontSize:"1rem"}}>Daily Fire Protection has been serving the Treasure Valley since 2019; focusing on honesty, integrity, and a better way to get things done.
+            <h4 className="footerhead">DAILY FIRE PROTECTION</h4>
+            <p className="footerp">Daily Fire Protection has been serving the Treasure Valley since 2019; focusing on honesty, integrity, and a better way to get things done.
                 Contact us for your residential and commercial fire protection needs!
             </p>
         </div>
@@ -40,21 +40,21 @@ const Footer = () => {
         </Nav>
         </div>
         <div className="footerinfo">
-            <h4 style={{marginBottom:"1.5rem", fontWeight:"650"}}>GET IN TOUCH</h4>
+            <h4 className="footerhead">GET IN TOUCH</h4>
         <div style={{display:"flex"}}>
-            <a onMouseOver={() => setOverTwo(true)} onMouseOut={() => setOverTwo(false)} className="facebooklink" href="https://www.facebook.com/Daily-Fire-Protection-NW-101597795858201/" target="_blank">
+            <a onMouseOver={() => setOverTwo(true)} onMouseOut={() => setOverTwo(false)} className="facebooklink footertouch" href="https://www.facebook.com/Daily-Fire-Protection-NW-101597795858201/" target="_blank">
             <img className="footerimg" src={overTwo ? grayfacebook : facebook}/> &nbsp; &nbsp;Follow us on Facebook</a>
         </div>
         <div style={{display:"flex"}}>
             <img className="footerimg" src={phone}/> &nbsp; &nbsp;
-            <p>(208) 899-9837&nbsp; / &nbsp;(208) 339-0124</p>
+            <p className="footertouch">(208) 899-9837&nbsp; / &nbsp;(208) 339-0124</p>
         </div>
         <div style={{display:"flex"}}>
             <img className="footerimg" src={email}/> &nbsp; &nbsp;
-            <p>admin@dailyfireprotection-nw.com</p>
+            <p className="footertouch">admin@dailyfireprotection-nw.com</p>
         </div>
         <div style={{display:"flex"}}>
-        <a onMouseOver={() => setOverThree(true)} onMouseOut={() => setOverThree(false)} className="facebooklink" href="https://www.google.com/maps/place/2399+S+Orchard+St+%23104,+Boise,+ID+83705/@43.5809607,-116.2462992,17z/data=!3m1!4b1!4m5!3m4!1s0x54ae57c6992909a7:0x773ca6f139585f86!8m2!3d43.5809607!4d-116.2441105" target="_blank">
+            <a onMouseOver={() => setOverThree(true)} onMouseOut={() => setOverThree(false)} className="facebooklink footertouch" href="https://www.google.com/maps/place/2399+S+Orchard+St+%23104,+Boise,+ID+83705/@43.5809607,-116.2462992,17z/data=!3m1!4b1!4m5!3m4!1s0x54ae57c6992909a7:0x773ca6f139585f86!8m2!3d43.5809607!4d-116.2441105" target="_blank">
             <img style={{marginBottom:".5rem"}} className="footerimg" src={overThree ? graymarker : marker}/> &nbsp; &nbsp;2399 South Orchard St. Suite 104 Boise, ID 83705</a>
         </div>
         </div>
