@@ -4,8 +4,8 @@ import family from "../images/family.png"
 
 const About = () => {
     return (
-        <div className="about">
-            <h1 style={{marginBottom:"2rem"}} className="servicetitle">About Us</h1>
+        <div  style={{maxWidth:"1400px", margin:"auto"}} className="about">
+            <h1 style={{marginBottom:"2rem"}} className="atitle">About Us</h1>
         <div className="facts">
             <h2 className="fact1">Est. 2019</h2>
             <h2 className="fact2">Ada County, Canyon County, Eastern Oregon & More</h2>
@@ -19,9 +19,9 @@ const About = () => {
                  business that provides quality work that meets industry safety standards.  
             </p>
         </div>
-        <h1 style={{marginBottom:"2rem"}} className="title">Meet the Team</h1>
+        <h1 style={{marginBottom:"2rem"}} className="atitle">Meet the Team</h1>
         <div style={{display:"flex", justifyContent:"center"}}>
-        <img style={{height:"35vw", borderRadius:".5rem"}} src={people}/>
+        <img style={{height:"35vw", maxHeight:"30rem", borderRadius:".5rem"}} src={people}/>
         </div>
         <div className="aboutsection">
             <div  className="personbiodiv">

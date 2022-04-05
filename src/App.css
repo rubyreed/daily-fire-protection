@@ -240,6 +240,16 @@
     font-weight: 900;
     margin-bottom: 0.5rem;
   }
+  .atitle {
+    font-size: 8vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
 
   /* in services */
   .servicesdiv {
@@ -286,26 +296,6 @@
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
-  }
-  .protect {
-    background-color: #424242;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-    color: white;
-    display: flex;
-  }
-  .protecttext {
-    width: 60%;
-  }
-  .protectlist {
-    padding-top: 0.5rem;
-    width: 40%;
-    font-size: 3vw;
-    font-weight: 650;
   }
   .actionpics {
     display: table;
@@ -380,6 +370,36 @@
   }
   .homeicon {
     height: 1rem;
+  }
+  .logo{
+    height:10vw;
+  }
+  .protecthead {
+    font-size: 4.5vw;
+    font-weight: 800;
+  }
+  .protectp {
+    font-size: 3vw;
+  }
+  .protect {
+    background-color: #424242;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color: white;
+    display: flex;
+  }
+  .protecttext {
+    width: 60%;
+  }
+  .protectlist {
+    padding-top: 0.5rem;
+    width: 40%;
+    font-size: 3vw;
+    font-weight: 650;
   }
 
   /* in contact */
@@ -604,6 +624,16 @@
     font-weight: 900;
     margin-bottom: 2rem;
   }
+  .atitle {
+    font-size: 8vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
 
   /* in services */
   .servicesdiv {
@@ -650,26 +680,6 @@
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
-  }
-  .protect {
-    background-color: #424242;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-    color: white;
-    display: flex;
-  }
-  .protecttext {
-    width: 60%;
-  }
-  .protectlist {
-    padding-top: 0.5rem;
-    width: 40%;
-    font-size: 3vw;
-    font-weight: 650;
   }
   .actionpics {
     display: table;
@@ -744,6 +754,36 @@
   }
   .homeicon {
     height: 1.2rem;
+  }
+  .logo{
+    height:10vw;
+  }
+  .protecthead {
+    font-size: 4.5vw;
+    font-weight: 800;
+  }
+  .protectp {
+    font-size: 3vw;
+  }
+  .protect {
+    background-color: #424242;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color: white;
+    display: flex;
+  }
+  .protecttext {
+    width: 60%;
+  }
+  .protectlist {
+    padding-top: 0.5rem;
+    width: 40%;
+    font-size: 3vw;
+    font-weight: 650;
   }
 
   /* in contact */
@@ -985,6 +1025,16 @@
     font-weight: 900;
     margin-bottom: 2rem;
   }
+  .atitle {
+    font-size: 4.5vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
+  }
 
   /* in services */
   .servicesdiv {
@@ -1030,27 +1080,6 @@
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
-  }
-  .protect {
-    background-color: #424242;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-    color: white;
-    display: flex;
-  }
-  .protecttext {
-    width: 60%;
-    padding-right: 10rem;
-  }
-  .protectlist {
-    padding-top: 0.5rem;
-    width: 40%;
-    font-size: 2vw;
-    font-weight: 650;
   }
   .actionpics {
     display: table;
@@ -1129,6 +1158,37 @@
   }
   .homeicon {
     height: 1.2rem;
+  }
+  .logo{
+    height:10vw;
+  }
+  .protecthead {
+    font-size: 3.2vw;
+    font-weight: 800;
+  }
+  .protectp {
+    font-size: 2vw;
+  }
+  .protect {
+    background-color: #424242;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color: white;
+    display: flex;
+  }
+  .protecttext {
+    width: 60%;
+    padding-right: 10rem;
+  }
+  .protectlist {
+    padding-top: 0.5rem;
+    width: 40%;
+    font-size: 2vw;
+    font-weight: 650;
   }
 
   /* in contact */
@@ -1361,12 +1421,12 @@
     color: white;
     justify-content: space-evenly;
   }
-  .servicetitle {
+  .atitle {
     font-size: 4vw;
     color: white;
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin-top: 3rem;
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
@@ -1438,27 +1498,6 @@
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
-  }
-  .protect {
-    background-color: #424242;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-    color: white;
-    display: flex;
-  }
-  .protecttext {
-    width: 60%;
-    padding-right: 10rem;
-  }
-  .protectlist {
-    padding-top: 0.5rem;
-    width: 40%;
-    font-size: 2vw;
-    font-weight: 650;
   }
   .actionpics {
     display: table;
@@ -1536,6 +1575,37 @@
   }
   .homeicon {
     height: 1.2rem;
+  }
+  .logo{
+    height:10vw;
+  }
+  .protecthead {
+    font-size: 3.2vw;
+    font-weight: 800;
+  }
+  .protectp {
+    font-size: 2vw;
+  }
+  .protect {
+    background-color: #424242;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color: white;
+    display: flex;
+  }
+  .protecttext {
+    width: 60%;
+    padding-right: 10rem;
+  }
+  .protectlist {
+    padding-top: 0.5rem;
+    width: 40%;
+    font-size: 2vw;
+    font-weight: 650;
   }
 
   /* in contact */
@@ -1717,9 +1787,9 @@
     padding: 1rem;
     margin-bottom: 1.5rem;
     border-radius: 1rem;
-    height: 14vw;
-    width: 14vw;
-    font-size: 4vw;
+    height: 15rem;
+    width: 15rem;
+    font-size: 3.5rem;
     font-weight: 800;
   }
   .fact2 {
@@ -1729,12 +1799,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 1rem;
+    padding: 1.2rem;
     margin-bottom: 1.5rem;
     border-radius: 1rem;
-    height: 14vw;
-    width: 14vw;
-    font-size: 1.5vw;
+    height: 15rem;
+    width: 15rem;
+    font-size: 1.7rem;
     font-weight: 800;
   }
   .fact3 {
@@ -1747,9 +1817,9 @@
     padding: 1rem;
     margin-bottom: 1.5rem;
     border-radius: 1rem;
-    height: 14vw;
-    width: 14vw;
-    font-size: 3vw;
+    height: 15rem;
+    width: 15rem;
+    font-size: 2.5rem;
     font-weight: 800;
   }
   .fact4 {
@@ -1762,9 +1832,9 @@
     padding: 1rem;
     margin-bottom: 1.5rem;
     border-radius: 1rem;
-    height: 14vw;
-    width: 14vw;
-    font-size: 1.8vw;
+    height: 15rem;
+    width: 15rem;
+    font-size: 1.8rem;
     font-weight: 800;
   }
   .facts {
@@ -1800,6 +1870,16 @@
   .abouttitle {
     font-weight: 900;
     margin-bottom: 2rem;
+  }
+  .atitle {
+    font-size: 3.1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-weight: 900;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+      0px -5px 35px rgba(255, 255, 255, 0.3);
   }
 
   /* in services */
@@ -1846,27 +1926,6 @@
     font-weight: 900;
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
       0px -5px 35px rgba(255, 255, 255, 0.3);
-  }
-  .protect {
-    background-color: #424242;
-    padding-top: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-bottom: 2rem;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-    color: white;
-    display: flex;
-  }
-  .protecttext {
-    width: 60%;
-    padding-right: 10rem;
-  }
-  .protectlist {
-    padding-top: 0.5rem;
-    width: 40%;
-    font-size: 1.3vw;
-    font-weight: 650;
   }
   .actionpics {
     display: table;
@@ -1957,6 +2016,37 @@
   }
   .homeicon {
     height: 1.2rem;
+  }
+  .logo{
+    height:12rem;
+  }
+  .protecthead {
+    font-size: 2.8rem;
+    font-weight: 800;
+  }
+  .protectp {
+    font-size: 2rem;
+  }
+  .protect {
+    background-color: #424242;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    color: white;
+    display: flex;
+  }
+  .protecttext {
+    width: 60%;
+    padding-right: 10rem;
+  }
+  .protectlist {
+    padding-top: 0.5rem;
+    width: 40%;
+    font-size: 1.4rem;
+    font-weight: 650;
   }
 
   /* in contact */

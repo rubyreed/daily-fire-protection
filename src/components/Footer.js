@@ -22,7 +22,7 @@ const Footer = () => {
         navigate(eventKey);
     };
     return (
-    <div className="footer" fixed="bottom">
+    <div style={{maxWidth:"2840px"}} className="footer" fixed="bottom">
         <div className="footerbody">
         <div className="footerbio">
             <h4 className="footerhead">DAILY FIRE PROTECTION</h4>
