@@ -23,9 +23,9 @@ const Contact = () => {
       );
     }
     return (
-        <div style={{display:"flex", justifyContent:"center"}}>
+        <div style={{display:"flex", justifyContent:"center", margin:"auto", maxWidth:"1440px"}}>
         <Container style={{ marginRight:"2rem", marginLeft:"2rem", marginBottom:"3rem"}}>
-            <h1 className="servicetitle">
+            <h1 className="atitle">
                 Get in Touch
             </h1>
             <div className="contactdiv" style={{marginTop:"2rem"}}>

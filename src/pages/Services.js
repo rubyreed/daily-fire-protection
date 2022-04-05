@@ -28,26 +28,26 @@ const Services = () => {
     const [modalShowSix, setModalShowSix] = React.useState(false);
 
     return (
-    <div>
-        <h1 className="servicetitle">Services</h1>
+    <div style={{maxWidth:"1400px", margin:"auto"}}>
+        <h1 className="atitle">Services</h1>
         <div className="servicesdiv">
             <div className="service serviceborder">
                 <img className="serviceicon" src={design}/>
-                <h2 className="servicehead"><img style={{height:"2rem", marginRight:".5rem", marginBottom:".7rem"}} src={pencil}/>Design</h2>
+                <h2 className="servicehead"><img className="serviceimg1" style={{height:"2rem", marginRight:".5rem", marginBottom:".7rem"}} src={pencil}/>Design</h2>
                 <p className="servicep">We work with engineers following strict standards for fire suppression,
                 safety, and damage control in each facility.
                 </p>
             </div>
             <div className="service serviceborder">
                 <img className="serviceicon" style={{marginTop:"1rem"}} src={hydrant}/>
-                <h2 className="servicehead"><img style={{height:"2rem", paddingRight:".5rem", marginBottom:".7rem"}} src={toolbox}/>Installation</h2>
+                <h2 className="servicehead"><img className="serviceimg2" style={{height:"2rem", paddingRight:".5rem", marginBottom:".7rem"}} src={toolbox}/>Installation</h2>
                 <p className="servicep">We offer full installation, providing our clients with expert service while 
                     meeting specific code requirements.
                 </p>
             </div>
             <div className="service">
                 <img className="serviceicon"  style={{marginTop:"1rem"}} src={paul2}/>
-                <h2 className="servicehead"><img style={{height:"3rem", paddingRight:".5rem", paddingBottom:"1rem"}} src={clipboard}/>Inspection, Repair & Service</h2>
+                <h2 className="servicehead"><img className="serviceimg3" style={{height:"3rem", paddingRight:".5rem", paddingBottom:"1rem"}} src={clipboard}/>Inspection, Repair & Service</h2>
                 <p className="servicep">In addition to design and installation we provide maintenance, evaluation, routine
                     inspection, testing, monitoring, repair and replacement.
                 </p>
@@ -56,7 +56,7 @@ const Services = () => {
         <div className="infodiv">
             <h4 className="moreinfo">For more information on the services we offer, give us a call at (208) 899-9837 or (208) 339-0124</h4>
         </div>
-        <h1 className="servicetitle">See Us in Action</h1>
+        <h1 className="atitle">See Us in Action</h1>
         <div>
             {/* <div className="actionpics" style={{marginBottom:"2rem"}}>
             <img onClick={() => setModalShow(true)} className="actionpic2" src={pipes}/>
