@@ -3,10 +3,10 @@ import pencil from "../images/pencil.png"
 import toolbox from "../images/toolbox.gif"
 import clipboard from "../images/clipboard.png"
 import hydrant from "../images/Hydrant.png"
-import pipes from "../images/pipes.png"
-import back from "../images/back.jpg"
 import design from "../images/designblueprint.png"
 import paul2 from "../images/paul2.png"
+import pipes from "../images/pipes.png"
+import back from "../images/back.jpg"
 import dusty from "../images/Dusty.jpg"
 import tubing from "../images/tubing.jpg"
 import bigred from "../images/bigred.jpg"
@@ -75,7 +75,7 @@ const Services = () => {
             <img className="actionpic" src={bigred}/>
             </div>
         </div>
-        <ImageModal1
+        {/* <ImageModal1
         show={modalShow}
         onHide={() => setModalShow(false)}
         />
@@ -98,7 +98,7 @@ const Services = () => {
         <ImageModal6
         show={modalShowSix}
         onHide={() => setModalShowSix(false)}
-        />
+        /> */}
     </div>
     )}
 

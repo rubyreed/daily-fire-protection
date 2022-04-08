@@ -5,6 +5,8 @@ import email from "../images/email.png"
 import facebook from "../images/facebook.png"
 import grayfacebook from "../images/grayfacebook.png"
 
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/ef47e920-b6a1-11ec-b4fe-2b9cbf782176";
+
 const Contact = () => {
   const [over, setOver] = useState(false);
     const [submitted, setSubmitted] = useState(false);
@@ -16,9 +18,9 @@ const Contact = () => {
   
     if (submitted) {
       return (
-        <Container style={{ minWidth:"12rem", marginLeft: "15vw", marginRight: "15vw",marginTop: "2rem", borderRadius:".3rem",padding:"4rem",display:"flex",textAlign:"center",flexDirection:"column"}}>
-          <h1 style={{color:"white"}}>Thank you!</h1>
-          <p style={{color:"white"}}>We'll be in touch soon.</p>
+        <Container style={{marginTop:"6%",marginBottom:"15%", color:"#424242", padding:"4rem", maxWidth:"1440px",display:"flex",textAlign:"center",flexDirection:"column"}}>
+          <h1 className="atitle">Thank you!</h1>
+          <p style={{color:"white", fontSize:"1rem"}}>We'll be in touch soon.</p>
         </Container>
       );
     }
@@ -43,7 +45,7 @@ const Contact = () => {
                 </div>
             </div>
             <form
-            // action={FORM_ENDPOINT}
+            action={FORM_ENDPOINT}
             onSubmit={handleSubmit}
             method="POST"
             target="_blank"
