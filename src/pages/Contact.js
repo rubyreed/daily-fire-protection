@@ -73,6 +73,7 @@ const Contact = () => {
                 <Form.Control 
                 type="email" 
                 placeholder="Email*"
+                name="email"
                 required/>
           </Form.Group>
     
@@ -84,13 +85,14 @@ const Contact = () => {
                 <Form.Control 
                 type="subject" 
                 placeholder="Subject*"
+                name="subject"
                 required/>
           </Form.Group>
     
           <Form.Group className="mb-3" controlID="formTextArea">
             <label className="contactlabel">Message:</label>
             <br/>
-            <Form.Control placeholder="Message*" as="textarea" rows={5} required/>
+            <Form.Control placeholder="Message*" as="textarea" rows={5} name="message" required/>
           </Form.Group>
     
           <Form.Group>
