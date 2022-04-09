@@ -15,7 +15,7 @@ const About = () => {
         <div className="bio">
             <p className="biotext">
                 Our company takes pride in a business that runs on ethical business practices and honesty. Partners Chris Daily
-                 and Paul Vaughn have 39 years of experience in the fire protection industry between them, and together they strive to run a family-oriented
+                 and Paul Vaughn have a collective 39 years of experience in the fire protection industry. Together they strive to run a family owned
                  business that provides quality work that meets industry safety standards.  
             </p>
         </div>
