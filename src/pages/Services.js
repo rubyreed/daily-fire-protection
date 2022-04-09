@@ -11,21 +11,21 @@ import dusty from "../images/Dusty.jpg"
 import tubing from "../images/tubing.jpg"
 import bigred from "../images/bigred.jpg"
 import amazon from "../images/amazon.jpg"
-import ImageModal1 from "../components/ImageModal1";
-import ImageModal2 from "../components/ImageModal2";
-import ImageModal3 from "../components/ImageModal3";
-import ImageModal4 from "../components/ImageModal4";
-import ImageModal5 from "../components/ImageModal5";
-import ImageModal6 from "../components/ImageModal6";
+// import ImageModal1 from "../components/ImageModal1";
+// import ImageModal2 from "../components/ImageModal2";
+// import ImageModal3 from "../components/ImageModal3";
+// import ImageModal4 from "../components/ImageModal4";
+// import ImageModal5 from "../components/ImageModal5";
+// import ImageModal6 from "../components/ImageModal6";
 
 const Services = () => {
 
-    const [modalShow, setModalShow] = React.useState(false);
-    const [modalShowTwo, setModalShowTwo] = React.useState(false);
-    const [modalShowThree, setModalShowThree] = React.useState(false);
-    const [modalShowFour, setModalShowFour] = React.useState(false);
-    const [modalShowFive, setModalShowFive] = React.useState(false);
-    const [modalShowSix, setModalShowSix] = React.useState(false);
+    // const [modalShow, setModalShow] = React.useState(false);
+    // const [modalShowTwo, setModalShowTwo] = React.useState(false);
+    // const [modalShowThree, setModalShowThree] = React.useState(false);
+    // const [modalShowFour, setModalShowFour] = React.useState(false);
+    // const [modalShowFive, setModalShowFive] = React.useState(false);
+    // const [modalShowSix, setModalShowSix] = React.useState(false);
 
     return (
     <div style={{maxWidth:"1400px", margin:"auto"}}>
