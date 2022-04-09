@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import map from "../images/map.png"
 import facebook from "../images/facebook.png"
 import phone from "../images/phone.png"
 import email from "../images/email.png"
