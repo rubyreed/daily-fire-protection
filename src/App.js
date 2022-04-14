@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Services from './pages/Services';
 import About from './pages/About';
 import ScrollToTop from './components/ScrollToTop';
+import Submitted from './pages/Submitted';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ScrollToTop>
       <NavBar/>
         <Routes>
+          <Route path="/submitted" element={<Submitted/>}/>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/services" element={<Services/>}/>
