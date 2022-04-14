@@ -437,8 +437,17 @@
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 3.3vw;
+    font-size: 5vw;
     font-weight: 650;
+  }
+  .contactlabel{
+    font-size:3.2vw;
+  }
+  .contactcontrol{
+    font-size:3.2vw !important;
+  }
+  .contactbutton{
+    font-size: 3.2vw !important;
   }
 }
 

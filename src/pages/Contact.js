@@ -58,6 +58,7 @@ const Contact = () => {
               </label>
               <br/>
               <Form.Control 
+                className="contactcontrol"
                 type="text"
                 placeholder="Name*"
                 name="name"
@@ -71,6 +72,7 @@ const Contact = () => {
                 </label>
                 <br/>
                 <Form.Control 
+                className="contactcontrol"
                 type="email" 
                 placeholder="Email*"
                 name="email"
@@ -82,7 +84,8 @@ const Contact = () => {
                   Subject:
                 </label>
                 <br/>
-                <Form.Control 
+                <Form.Control
+                className="contactcontrol" 
                 type="subject" 
                 placeholder="Subject*"
                 name="subject"
@@ -92,11 +95,12 @@ const Contact = () => {
           <Form.Group className="mb-3" controlID="formTextArea">
             <label className="contactlabel">Message:</label>
             <br/>
-            <Form.Control placeholder="Message*" as="textarea" rows={5} name="message" required/>
+            <Form.Control className="contactcontrol" placeholder="Message*" as="textarea" rows={5} name="message" required/>
           </Form.Group>
     
           <Form.Group>
             <Button
+            className="contactbutton"
             type="submit"
             style={{backgroundColor:"black", border:"none", marginBottom:"2rem", padding:"1rem"}}
             >
