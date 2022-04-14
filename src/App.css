@@ -144,6 +144,11 @@
     text-align: center;
     font-size: 1rem;
   }
+  .chrispaul {
+    margin: 0;
+    text-align: center;
+    font-size: .8rem;
+  }
   .fact1 {
     background-color: #424242;
     width: 25%;
@@ -532,6 +537,11 @@
     margin-bottom: 4rem;
   }
   .biotext {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .chrispaul {
     margin: 0;
     text-align: center;
     font-size: 1rem;
@@ -926,6 +936,11 @@
     margin: 0;
     text-align: center;
     font-size: 1.1rem;
+  }
+  .chrispaul {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
   }
   .title {
     font-size: 5vw;
@@ -1354,6 +1369,11 @@
     margin: 0;
     text-align: center;
     font-size: 1.2rem;
+  }
+  .chrispaul {
+    margin: 0;
+    text-align: center;
+    font-size: 1.1rem;
   }
   .title {
     font-size: 4vw;
@@ -1785,6 +1805,11 @@
     margin: 0;
     text-align: center;
     font-size: 1.3rem;
+  }
+  .chrispaul {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
   }
   .fact1 {
     background-color: #424242;

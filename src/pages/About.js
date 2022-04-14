@@ -27,7 +27,7 @@ const About = () => {
             <div  className="personbiodiv">
             <h2>Chris Daily</h2>
             <img className="personimgsmall"src={family}/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            <p className="chrispaul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua. Risus pretium quam vulputate dignissim 
                 suspendisse in est ante in. Vel turpis nunc eget lorem dolor sed viverra ipsum. 
                 Odio facilisis mauris sit amet massa vitae. Malesuada proin libero nunc consequat interdum.
@@ -41,7 +41,7 @@ const About = () => {
             <div className="personbiodiv">
             <h2 className="abouttitle">Paul Vaughn</h2>
             <img className="personimgsmall" src={family}/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            <p className="chrispaul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua. Risus pretium quam vulputate dignissim 
                 suspendisse in est ante in. Vel turpis nunc eget lorem dolor sed viverra ipsum. 
                 Odio facilisis mauris sit amet massa vitae. Malesuada proin libero nunc consequat interdum.
