@@ -7,7 +7,7 @@ const Home = () => {
     return (
     <div style={{maxWidth:"1400px", margin:"auto"}}>
     <div style={{position:"relative",textAlign:"center", color:"white"}}>
-        <h2 className="homephone">(208) 899-9827 &nbsp; <img className="homeicon" src={phone}/> &nbsp;(208) 339-0124</h2>
+        <h2 className="homephone">(208) 899-9837 &nbsp; <img className="homeicon" src={phone}/> &nbsp;(208) 339-0124</h2>
         <img className="homeimg" src={shaded}/>
         <div className="headerdiv">
         <h1 className="homehead">DAILY FIRE PROTECTION</h1>
