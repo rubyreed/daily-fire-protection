@@ -13,8 +13,11 @@ const About = () => {
             <h2 className="fact4">Family-Oriented, Ethical Business Practices</h2>
         </div>
         <div className="bio">
-            <p className="biotext">
+        {/*<p className="biotext">
             Daily Fire Protection, LLC is a mid-sized Union Fire Sprinkler Contractor located in Boise, ID. Daily Fire Protection, LLC was started in 2019 by Christopher Daily with the goal of completing service and inspections on existing sprinkler systems in the Treasure Valley. In 2020 Christopher Daily brought in Paul Vaughn as a partner to help with the company and quickly expanded from the goal of service and inspection to include contract work and expanded from just servicing the Treasure Valley to being licensed in both Idaho and Oregon. Having built a strong team from the partnership outward, Daily Fire Protection, LLC is looking forward to continued growth, participation, and sponsorship within the communities we serve.
+    </p>*/}
+            <p className="biotext">
+            Daily Fire Protection, LLC is a mid-sized Union Fire Sprinkler Contractor located in Boise, ID. The company was started in 2019 by Christopher Daily with the goal of completing service and inspections on existing sprinkler systems in the Treasure Valley. With a strong team behind it, Daily Fire Protection, LLC is looking forward to continued growth, participation, and sponsorship within the communities we serve.
             </p>
         </div>
         <h1 style={{marginBottom:"2rem"}} className="atitle">Meet the Team</h1>
