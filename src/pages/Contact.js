@@ -33,7 +33,7 @@ const Contact = () => {
             <div className="contactdiv" style={{marginTop:"2rem"}}>
               <div className="connect connectborder">
                 <img className="connectimg" src={phone}/>
-                <h4 className="connecttext">(208) 899-9837 &nbsp;/ &nbsp;(208) 339-0124</h4>
+                <h4 className="connecttext">(208) 899-9837</h4>
               </div>
               <div className="connect connectborder">
                 <img className="connectimg" src={email}/>

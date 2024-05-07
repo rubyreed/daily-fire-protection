@@ -46,15 +46,15 @@ const Footer = () => {
         </div>
         <div style={{display:"flex"}}>
             <img className="footerimg" src={phone}/> &nbsp; &nbsp;
-            <p className="footertouch">(208) 899-9837&nbsp; / &nbsp;(208) 339-0124</p>
+            <p className="footertouch">(208) 899-9837</p>
         </div>
         <div style={{display:"flex"}}>
             <img className="footerimg" src={email}/> &nbsp; &nbsp;
             <p className="footertouch">admin@dailyfireprotection-nw.com</p>
         </div>
         <div style={{display:"flex"}}>
-            <a onMouseOver={() => setOverThree(true)} onMouseOut={() => setOverThree(false)} className="facebooklink footertouch" href="https://www.google.com/maps/place/2399+S+Orchard+St+%23104,+Boise,+ID+83705/@43.5809607,-116.2462992,17z/data=!3m1!4b1!4m5!3m4!1s0x54ae57c6992909a7:0x773ca6f139585f86!8m2!3d43.5809607!4d-116.2441105" target="_blank">
-            <img style={{marginBottom:".5rem"}} className="footerimg" src={overThree ? graymarker : marker}/> &nbsp; &nbsp;2399 South Orchard St. Suite 104 Boise, ID 83705</a>
+            <a onMouseOver={() => setOverThree(true)} onMouseOut={() => setOverThree(false)} className="facebooklink footertouch" href="https://www.google.com/maps/place/22912+Cirrus+Vw+Ct,+Caldwell,+ID+83607/@43.6344525,-116.8525321,17z/data=!3m1!4b1!4m5!3m4!1s0x54afcbd8d92f99b7:0xb7d82b607f09407d!8m2!3d43.6344525!4d-116.8503381" target="_blank">
+            <img style={{marginBottom:".5rem"}} className="footerimg" src={overThree ? graymarker : marker}/> &nbsp; &nbsp;22912 Cirrus View Ct, Caldwell, ID 83607</a>
         </div>
         </div>
         </div>

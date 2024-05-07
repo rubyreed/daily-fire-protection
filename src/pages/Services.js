@@ -54,7 +54,7 @@ const Services = () => {
             </div>
         </div>
         <div className="infodiv">
-            <h4 className="moreinfo">For more information on the services we offer, give us a call at (208) 899-9837 or (208) 339-0124</h4>
+            <h4 className="moreinfo">For more information on the services we offer, give us a call at (208) 899-9837.</h4>
         </div>
         <h1 className="atitle">See Us in Action</h1>
         <div>
